@@ -1,0 +1,231 @@
+{
+  "shadow_wolf": {
+    "name": "Skuggvarg",
+    "special": "Kan hoppa över frontlinjen och attackera den svagaste hjälten."
+  },
+  "skeleton_warrior": {
+    "name": "Skelettkrigare",
+    "special": "Återuppstår en gång med 30% HP om den inte bränns."
+  },
+  "poison_spider": {
+    "name": "Giftspindel",
+    "special": "Applicerar gift + kan spärra in en hjälte i nät."
+  },
+  "stone_knoll": { "name": "Stenknalle", "special": "Hög Defense. Splittras vid kritisk skada." },
+  "stone_knoll_small": { "name": "Liten Stenknalle", "special": "En avsplittrad bit sten." },
+  "blood_bat": { "name": "Blodfladdermus", "special": "Lifesteal på attacker. Hög evasion." },
+  "cherry_spirit": { "name": "Körsbärsträds-ande", "special": "Kan charma en hjälte i 1 runda." },
+  "mushroom_farmer": { "name": "Svampodlare", "special": "Skapar små svamp-minions varje runda." },
+  "mushroom_minion": { "name": "Svampminion", "special": "En liten spor-varelse." },
+  "ice_imp": { "name": "Isimp", "special": "Sänker Speed på träffade mål." },
+  "iron_golem": { "name": "Järngolem", "special": "Extremt hög Defense. Magi gör mer skada." },
+  "necro_apprentice": {
+    "name": "Nekromantens Lärling",
+    "special": "Summonar Skelettkrigare under striden."
+  },
+  "fire_salamander": {
+    "name": "Eldsalamander",
+    "special": "Eldandning (AoE) + immunitet mot eld."
+  },
+  "shadow_assassin": {
+    "name": "Skuggassassin",
+    "special": "Hög krit-chans + kan bli osynlig i 1 runda."
+  },
+  "banshee": { "name": "Banshee", "special": "Skräck-skrik som kan få hjältar att missa sin tur." },
+  "crystal_spider": {
+    "name": "Kristallspindel",
+    "special": "Hennes nät sänker både Speed och Defense."
+  },
+  "drakkin_warrior": {
+    "name": "Drakkin-krigare",
+    "special": "Rasande form som ökar ATK kraftigt."
+  },
+  "black_knight": {
+    "name": "Svart Riddare",
+    "special": "Hög Defense + speglar en del skada tillbaka."
+  },
+  "storm_elemental": {
+    "name": "Stormelemental",
+    "special": "Kedjeblixt + delvis immunitet mot fysiska attacker."
+  },
+  "blood_master": {
+    "name": "Blodmästare",
+    "special": "Offrar egna HP för att ge massiv buff till en allierad."
+  },
+  "elder_giant": {
+    "name": "Äldre Stenjätte",
+    "special": "Jordskalv (AoE + stun-chans) + enorm HP-pool."
+  },
+  "vampire_lord": {
+    "name": "Vampyrlord",
+    "special": "Stark lifesteal + fladdermusform (hög evasion)."
+  },
+  "black_drakeling": { "name": "Drakunge (Svart)", "special": "Eldandning + svagare Drakform." },
+  "lich": { "name": "Lich", "special": "Återuppväcker fallna fiender + starka förbannelser." },
+  "shadow_demon": { "name": "Skuggdemon", "special": "Blir starkare ju fler debuffs laget har." },
+  "corrupt_treelord": {
+    "name": "Korrupt Trädherre",
+    "special": "Summonar korrupt vegetation + stark regenerering."
+  },
+  "ice_queen": { "name": "Isdrottning", "special": "Kan frysa hela laget + skapar isbarriärer." },
+  "war_golem": { "name": "Krigsgolem", "special": "Byter mellan offensiv och defensiv form." },
+  "soul_eater": { "name": "Själslukare", "special": "Stjäl livskraft och blir starkare av det." },
+  "mirror_warden": { "name": "Spegelväktare", "special": "Kopierar en hjältes starkaste spell." },
+  "time_twister": {
+    "name": "Tidsvridare",
+    "special": "Kan få en hjälte att hoppa över sin tur eller själv agera två gånger."
+  },
+  "fallen_star": {
+    "name": "Den Fallne Stjärnan",
+    "special": "Kombinerar helig och skuggmagi. Helar sig själv och kastar förödande AoE."
+  },
+  "frost_warg": {
+    "name": "Frostvarg",
+    "special": "Frostbett som saktar ner – ylandet stärker hela flocken."
+  },
+  "bog_crawler": {
+    "name": "Kärrkrypare",
+    "special": "Giftigt stick och kärrgas som förgiftar hela laget."
+  },
+  "ash_imp": {
+    "name": "Askimp",
+    "special": "Gnistor som tänder eld och askmoln som sänker ATK. Immun mot eld."
+  },
+  "grave_hound": {
+    "name": "Gravhund",
+    "special": "Jagar den svagaste hjälten och reser sig en gång efter döden."
+  },
+  "rune_wisp": {
+    "name": "Runlykta",
+    "special": "Svår att träffa och läker sina skadade allierade."
+  },
+  "peat_brute": {
+    "name": "Torvbrute",
+    "special": "Seg torvkropp som läker sig själv och saktar ner med sina slag."
+  },
+  "snow_harpy": {
+    "name": "Snöharpya",
+    "special": "Snabb – dyker mot flera mål och sänker deras SPD."
+  },
+  "rust_tick": {
+    "name": "Rostfästing",
+    "special": "Fräter sönder rustningen (sänker DEF) och suger liv."
+  },
+  "choir_shade": {
+    "name": "Körskugga",
+    "special": "En klagosång som kan bedöva hela laget."
+  },
+  "ember_boar": {
+    "name": "Glödgalt",
+    "special": "Brinnande anfall som sätter eld och kan bedöva."
+  },
+  "glass_archer": {
+    "name": "Glasbågskytt",
+    "special": "Prismasalvor mot slumpmässiga mål med hög kritchans."
+  },
+  "plague_monk": {
+    "name": "Pestmunk",
+    "special": "Pestdimma som förgiftar och försvagar hela laget."
+  },
+  "dune_serpent": {
+    "name": "Dynorm",
+    "special": "Giftbett och sandstorm som saktar ner alla."
+  },
+  "hex_doll": {
+    "name": "Hexdocka",
+    "special": "Förbannar laget (ATK/SPD ned) och syr ihop sig själv en gång."
+  },
+  "coral_knight": {
+    "name": "Korallriddare",
+    "special": "Hånar med korallsköld och reflekterar skada."
+  },
+  "thunder_ram": {
+    "name": "Åskbagge",
+    "special": "Åskanfall med hög chans att bedöva."
+  },
+  "bone_chanter": {
+    "name": "Benchanter",
+    "special": "Väcker skelett och stärker sina allierades ATK."
+  },
+  "cinder_monk": {
+    "name": "Askmunk",
+    "special": "Dubbelslag, brinnande knytnäve och meditation som läker."
+  },
+  "mist_stalker": {
+    "name": "Dimslöjare",
+    "special": "Svår att träffa – kastar sig över den svagaste hjälten."
+  },
+  "clockwork_squire": {
+    "name": "Urverksväpnare",
+    "special": "Järnhud mot fysisk skada; vrider upp sig för mer ATK och SPD."
+  },
+  "mire_hag": {
+    "name": "Kärrhäxa",
+    "special": "Förbannelser, ett läkande brygd och en översvämning som växer med varje försvagning."
+  },
+  "forge_tyrant": {
+    "name": "Smedtyrann",
+    "special": "Ugnsstöt mot alla och ett städslag som kan bedöva. Immun mot eld."
+  },
+  "pale_stag": {
+    "name": "Blekhjort",
+    "special": "Läker och renar sina allierade, trampar ner hela laget."
+  },
+  "drowned_admiral": {
+    "name": "Drunknad Amiral",
+    "special": "Samlar sin döda besättning, peppar sina allierade och avfyrar bredsidor."
+  },
+  "magma_behemoth": {
+    "name": "Magmabehemot",
+    "special": "Enorm HP, lavaventiler som bränner och ett utbrott som kan bedöva."
+  },
+  "frost_colossus": {
+    "name": "Frostkoloss",
+    "special": "Glaciärsköld och lavin som kan frysa hela laget."
+  },
+  "silk_matron": {
+    "name": "Silkesmatrona",
+    "special": "Snärjer laget i silke och föder fram spindlar."
+  },
+  "oathbreaker": {
+    "name": "Edbrytaren",
+    "special": "Bryter laget (ATK/DEF ned) och dömer med garanterad krit mot försvagade."
+  },
+  "eclipse_wyrm": {
+    "name": "Förmörkelseorm",
+    "special": "Växlar mellan sol och skugga – brand, DEF ned och en total förmörkelse."
+  },
+  "nameless_bell": {
+    "name": "Den Namnlösa Klockan",
+    "special": "Tysta klockslag som bedövar och raderar den svagaste hjälten."
+  },
+  "plague_moth_queen": {
+    "name": "Pestmalsdrottningen",
+    "special": "Sporstormar som förgiftar alla, hypnotiska vingar som förtrollar och en pestblomning som växer med varje försvagning."
+  },
+  "slag_king": {
+    "name": "Slaggkungen",
+    "special": "Smält rustning som reflekterar skada, degel som bränner hela laget. Immun mot eld."
+  },
+  "storm_jarl": {
+    "name": "Åskjarlen",
+    "special": "Kedjeblixtar som bedövar, en frostkrona som gör honom immun mot CC och ett ragnaröksslag."
+  },
+  "kraken_matriarch": {
+    "name": "Krakenmodern",
+    "special": "Bläckmoln som sänker ATK, krossgrepp som bedövar och en malström som saktar ner alla."
+  },
+  "hollow_saint": {
+    "name": "Det Ihåliga Helgonet",
+    "special": "Läker sig och blir immun mot försvagningar, raderar rustning och bländar med en falsk gryning."
+  },
+  "type": {
+    "undead": "Odöd",
+    "beast": "Best",
+    "elemental": "Elemental",
+    "construct": "Konstrukt",
+    "humanoid": "Humanoid",
+    "demon": "Demon",
+    "unique": "Unik"
+  }
+}

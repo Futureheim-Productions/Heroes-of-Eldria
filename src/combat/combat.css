@@ -1,0 +1,171 @@
+/* Still-actor combat stage – see GSAP-Still-Actor-Animation.md.
+   Z order: shadow < glow < img < projectile < spellfx < floater < overlay-ui */
+
+#combat-stage,
+.combat-stage {
+  position: relative;
+  overflow: hidden;
+  transform-origin: 50% 70%;
+}
+
+.combat-slot {
+  position: absolute;
+  width: 0;
+  height: 0;
+}
+
+.actor-root {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  transform-origin: 50% 100%;
+}
+.actor-root[role='button'] {
+  cursor: pointer;
+}
+.actor-root:focus-visible {
+  outline: 2px solid rgba(242, 208, 107, 0.8);
+  outline-offset: 4px;
+  border-radius: 12px;
+}
+
+.actor-body {
+  position: absolute;
+  inset: 0;
+}
+
+.actor-glow,
+.actor-img,
+.actor-hit-overlay {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.actor-glow {
+  z-index: 1;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  mix-blend-mode: screen;
+}
+
+.actor-img {
+  z-index: 2;
+  object-fit: contain;
+  object-position: 50% 100%;
+  pointer-events: none;
+  user-select: none;
+  opacity: 0;
+  transition: opacity 0.2s;
+}
+.actor-img[data-loaded] {
+  opacity: 1;
+}
+
+.actor-hit-overlay {
+  z-index: 3;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  background: #fff;
+  mask-size: contain;
+  mask-position: 50% 100%;
+  mask-repeat: no-repeat;
+  -webkit-mask-size: contain;
+  -webkit-mask-position: 50% 100%;
+  -webkit-mask-repeat: no-repeat;
+}
+
+.actor-shadow {
+  position: absolute;
+  z-index: 0;
+  left: 14%;
+  right: 14%;
+  bottom: -8px;
+  height: 16px;
+  border-radius: 50%;
+  background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.55) 0%, rgba(0, 0, 0, 0) 70%);
+  pointer-events: none;
+}
+
+/* FX + floaters live in stage space, above every actor. */
+.combat-fx-layer,
+.combat-floater-layer {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+.combat-fx-layer {
+  z-index: 50;
+}
+.combat-floater-layer {
+  z-index: 60;
+}
+
+.combat-projectile {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 18px;
+  height: 18px;
+  margin: -9px 0 0 -9px;
+  border-radius: 50%;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.combat-pulse {
+  position: absolute;
+  left: 0;
+  top: 0;
+  border-radius: 50%;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.combat-sheet {
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+  visibility: hidden;
+  background-repeat: no-repeat;
+}
+
+.damage-floater {
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: var(--font-display, serif);
+  font-weight: 900;
+  line-height: 1;
+  white-space: nowrap;
+  color: #fff;
+  text-shadow:
+    0 2px 0 rgba(0, 0, 0, 0.9),
+    0 0 6px rgba(0, 0, 0, 0.8);
+  -webkit-text-stroke: 1px rgba(0, 0, 0, 0.65);
+  will-change: transform, opacity;
+}
+.damage-floater .value {
+  font-size: 22px;
+}
+.damage-floater.crit {
+  color: #ffd166;
+}
+.damage-floater.crit .value {
+  font-size: 32px;
+}
+.damage-floater .label {
+  font-size: 10px;
+  letter-spacing: 0.18em;
+  margin-bottom: 2px;
+}
+.damage-floater.heal {
+  color: #45d17c;
+}

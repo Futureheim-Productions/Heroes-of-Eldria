@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 720" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1b1236"/>
+      <stop offset="0.45" stop-color="#3a2a6e"/>
+      <stop offset="0.75" stop-color="#7a4f8f"/>
+      <stop offset="1" stop-color="#c98a6a"/>
+    </linearGradient>
+    <radialGradient id="moon" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ffe9b8" stop-opacity="0.9"/>
+      <stop offset="0.35" stop-color="#ffd98a" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#ffd98a" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="far" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2d2452"/>
+      <stop offset="1" stop-color="#1a1433"/>
+    </linearGradient>
+    <linearGradient id="mid" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#241b45"/>
+      <stop offset="1" stop-color="#120d24"/>
+    </linearGradient>
+    <linearGradient id="near" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#15102a"/>
+      <stop offset="1" stop-color="#0a0714"/>
+    </linearGradient>
+    <linearGradient id="fog" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#d9a06a" stop-opacity="0"/>
+      <stop offset="1" stop-color="#d9a06a" stop-opacity="0.45"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="720" fill="url(#sky)"/>
+  <circle cx="1180" cy="150" r="220" fill="url(#moon)"/>
+  <circle cx="1180" cy="150" r="46" fill="#fff1c9"/>
+  <g fill="#fff" opacity="0.7">
+    <circle cx="120" cy="80" r="1.6"/><circle cx="300" cy="140" r="1.2"/><circle cx="520" cy="60" r="1.8"/><circle cx="700" cy="120" r="1.1"/>
+    <circle cx="880" cy="40" r="1.5"/><circle cx="1400" cy="90" r="1.4"/><circle cx="1520" cy="200" r="1.2"/><circle cx="60" cy="260" r="1.3"/>
+    <circle cx="960" cy="230" r="1.1"/><circle cx="1330" cy="300" r="1"/><circle cx="420" cy="250" r="1.3"/><circle cx="1480" cy="40" r="1.7"/>
+  </g>
+  <!-- far mountains -->
+  <path fill="url(#far)" d="M0 470 L120 380 L230 430 L330 340 L450 420 L560 360 L680 430 L780 380 L900 440 L1000 390 L1120 450 L1230 370 L1350 430 L1470 380 L1600 440 L1600 720 L0 720 Z"/>
+  <!-- castle -->
+  <g fill="url(#mid)">
+    <rect x="560" y="330" width="480" height="260"/>
+    <rect x="520" y="290" width="70" height="300"/>
+    <rect x="1010" y="290" width="70" height="300"/>
+    <rect x="720" y="230" width="60" height="360"/>
+    <rect x="820" y="180" width="70" height="410"/>
+    <rect x="920" y="250" width="50" height="340"/>
+    <path d="M520 290 L555 220 L590 290 Z"/>
+    <path d="M1010 290 L1045 220 L1080 290 Z"/>
+    <path d="M720 230 L750 150 L780 230 Z"/>
+    <path d="M820 180 L855 80 L890 180 Z"/>
+    <path d="M920 250 L945 180 L970 250 Z"/>
+    <rect x="560" y="315" width="20" height="18"/><rect x="600" y="315" width="20" height="18"/><rect x="640" y="315" width="20" height="18"/>
+    <rect x="940" y="315" width="20" height="18"/><rect x="980" y="315" width="20" height="18"/><rect x="1020" y="315" width="20" height="18"/>
+  </g>
+  <g fill="#ffd27a" opacity="0.8">
+    <rect x="745" y="300" width="8" height="14"/><rect x="848" y="260" width="9" height="16"/><rect x="848" y="330" width="9" height="16"/>
+    <rect x="940" y="330" width="7" height="12"/><rect x="600" y="400" width="10" height="16"/><rect x="980" y="420" width="10" height="16"/>
+  </g>
+  <!-- near hills -->
+  <path fill="url(#near)" d="M0 560 L140 520 L260 560 L400 500 L520 570 L640 540 L760 590 L900 540 L1040 600 L1180 550 L1320 600 L1460 560 L1600 610 L1600 720 L0 720 Z"/>
+  <rect y="480" width="1600" height="240" fill="url(#fog)"/>
+</svg>

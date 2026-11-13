@@ -1,0 +1,854 @@
+{
+  "title": "Heroes",
+  "owned": "Owned",
+  "all": "All",
+  "details": "Details",
+  "upgrade": "Upgrade",
+  "skills_title": "Skills",
+  "equipment": "Equipment",
+  "level_up": "Level up",
+  "level_up_cost": "{{gold}} gold",
+  "use_potion": "Use {{name}}",
+  "star_up": "Star up",
+  "star_up_cost": "{{shards}} shards · {{gold}} gold",
+  "star_up_crystals": "+ {{n}} awakening crystals",
+  "shards_owned": "{{n}} shards",
+  "skill_level": "Level {{level}}",
+  "skill_upgrade_cost": "{{gold}} gold · {{books}} book(s)",
+  "skill_kind": { "basic": "Basic", "skill": "Skill", "ultimate": "Ultimate" },
+  "cooldown": "Cooldown: {{n}}",
+  "not_owned": "Not owned – collect shards from adventures and the shop",
+  "not_enough_shards": "Not enough shards",
+  "not_enough_crystals": "Not enough awakening crystals",
+  "not_enough_books": "Not enough skill books",
+  "empty_slot": "Empty slot",
+  "choose_item": "Choose equipment",
+  "unequip": "Unequip",
+  "set_bonus": "Set bonus",
+  "in_formation": "In team",
+  "recruit_hint": "Summon in the shop to get new heroes.",
+  "arthen": {
+    "name": "Arthen",
+    "title": "Holy Knight",
+    "class": "Paladin",
+    "desc": "An unwavering knight who shields allies with holy light.",
+    "lore": [
+      "Arthen was born in Hallvard, a border village of Norsheim, the son of a village smith who forged plows by day and swords by night. When the shadow wolves first broke through the palisade he was fourteen, holding his father's hammer. He survived. The village did not.",
+      "The Order of Light found him in the ashes and took him to the monastery at Silverhöjd. There he learned that a shield is worth more than ten swords, and that the holy light does not burn for the one who strikes hardest but for the one who still stands when everyone else has fled. At twenty-five he was knighted and given the blue cloak – the Order's mark for those sworn never to take a step back.",
+      "When the Fallen Star crashed over Starfall and the shadows began to wake across all five regions, Arthen was the first to ride out. He does not say much about why. But those who fight beside him know he still carries a charred plowshare in his belt."
+    ]
+  },
+  "lyra": {
+    "name": "Lyra Wavesong",
+    "title": "Elemental Mage",
+    "class": "Elementalist",
+    "desc": "Masters ice and lightning to sweep enemies from the field.",
+    "lore": [
+      "For generations the Wavesong family has kept the lighthouses along the Frostreach coast, where winter storms come in from the sea with lightning and ice in the same breath. Lyra grew up with her hands on the lighthouse crystal and learned early to listen to the storm instead of fearing it.",
+      "The Elementalist Academy in Eldria accepted her as its youngest student ever. There they called her \"the Frost Child\" – until her first duel, when she chained a bolt of lightning through three opponents at once and the academy had to replace half its floor tiles. The teachers stopped laughing. She never stopped training.",
+      "Lyra does not fight for glory. She fights to find out what made the ice of Frostreach begin to sing with a new voice – a voice that comes from the Ice Queen's palace, and that her mother's lighthouse crystal now refuses to shine toward."
+    ]
+  },
+  "kael": {
+    "name": "Kael Drakensson",
+    "title": "Dragon Warrior",
+    "class": "Dragon Knight",
+    "desc": "Dragon blood runs in his veins; he can transform into a dragon.",
+    "lore": [
+      "In the volcanic valleys of Eldria they still tell of the dragon riders, the clan that once rode black dragons and kept the mountain in check. The clan is gone. The dragons are gone. Kael Drakensson is the last to carry their blood – and the blood has not forgotten.",
+      "As a child he fever-dreamed of fire. As a youth he woke with burn marks on his hands without having touched a flame. The clan's last elder gave him the Ember Blade and a single piece of advice: \"The dragon in you wants out. Decide for yourself when.\" Kael has spent the rest of his life learning to decide.",
+      "He enlisted as a mercenary, then a border guard, then nothing at all. When the Drakeling of Eldria began burning villages he sought out Arthen and Lyra of his own accord. Not to save anyone, he says, but to see if there is any flame out there hotter than his own."
+    ]
+  },
+  "sylwen": {
+    "name": "Sylwen Nightblade",
+    "title": "Shadow Assassin",
+    "class": "Shadowblade",
+    "desc": "Strikes from the shadows with lethal poison.",
+    "lore": [
+      "The dark elves of Shadowmarsh have always lived in the twilight between the human kingdoms and what waits beneath the earth. Sylwen Nightblade was born in the Whispering Halls, the elves' hidden city, and trained from the age of five by the Guild of Night – assassins who sell their services to whoever pays in silence.",
+      "Her first contract was a necromancer who had begun waking the dead of Shadowmarsh. She succeeded. But what she saw in his laboratory – the Lich's sigil carved into every skull – made her break the Guild's most important rule: she told outsiders.",
+      "Now she is an outlaw among her own people and hunted by her former teachers. Sylwen does not care. The poison on her blades is distilled from Crystal Spider webbing, and she has one name left on her list: the Lich himself."
+    ]
+  },
+  "thora": {
+    "name": "Thora Ironhand",
+    "title": "Berserker",
+    "class": "Barbarian",
+    "desc": "The more she bleeds, the harder she hits.",
+    "lore": [
+      "Thora Ironhand comes from the northern stone clan of Norsheim, where children learn to split wood before they learn to read and a woman earns her name only when she has felled her first boar alone. Thora felled a bear. She was eleven.",
+      "The hand she got when the Stone Knolls woke in the clan's mines. She held up a collapsing tunnel with her own body so the miners could get out – and lost three fingers and half a forearm doing it. The clan smith forged her a new grip of iron. She asked him to make it heavier.",
+      "She fights best when she bleeds. The healers call it rage; Thora calls it finally being awake. When the Elder Stone Giant rose from the ruins of Norsheim, she was the only one who laughed."
+    ]
+  },
+  "elarion": {
+    "name": "Elarion Starweaver",
+    "title": "Star Priest",
+    "class": "Astral Priest",
+    "desc": "Channels the cosmos to heal and protect the team.",
+    "lore": [
+      "No one knows where Elarion Starweaver was born. He himself says he woke one night on the highest cliff of Starfall with the night sky mirrored in his eyes and a name he had not chosen on his lips. The astral priests of the Cosmos Temple received him as an omen.",
+      "For thirty years he studied the bonds of the stars – the invisible threads that tie every living thing to each other and to the heavens. He learned to borrow strength from one soul to heal another, and to weave two lives together so that neither must carry its pain alone.",
+      "Then the star fell. Elarion was there. He watched the light tear itself from the sky, shatter against the ground and rise again as something half holy, half shadow. He has not slept properly since. He says the Fallen Star recognizes him – and that it calls him brother."
+    ]
+  },
+  "brann": {
+    "name": "Brann Emberforge",
+    "title": "Pyromancer",
+    "class": "Fire Mage",
+    "desc": "A hot-headed mage who burns everything in his path.",
+    "lore": [
+      "Brann Emberforge was a smith's apprentice in Eldria's capital, Glowburg, until the day he accidentally set fire to a forge that was already burning. The flame answered him. The master smith threw him out that same evening – you cannot keep an apprentice who argues with the fire.",
+      "The Pyromancers' Guild took him in, mostly because no one else would. They taught him discipline. He taught them that a smith's apron protects against sparks better than any mage robe, and that a fireball does more damage if you warm it in your palm for ten seconds first.",
+      "Brann is cocky, loud and refuses to admit when he is wrong. But the Fire Salamanders of Eldria fear him more than anyone, because he is the only one who has learned to burn what is already made of fire."
+    ]
+  },
+  "ilva": {
+    "name": "Ilva Woodwarden",
+    "title": "Forest Hunter",
+    "class": "Ranger",
+    "desc": "A sharp-eyed archer with poisoned arrows.",
+    "lore": [
+      "The Forest Wardens of Norsheim are not soldiers. They are the ones who walk into the woods when no one else dares, who count the wolf tracks and keep the roads between the villages open. Ilva Woodwarden is a third-generation warden and the first to come back from the Cherry Grove with her mind intact.",
+      "There she met the corrupt spirit that charmed her two brothers into the mist. She got the scar over her eyebrow that night – and the poison she now dips her arrowheads in. It is distilled from the same blossoms that took her brothers. She calls it justice.",
+      "Ilva rarely speaks and never shoots twice at the same target. When the Awakening of Shadows swept over Norsheim, it was her report that made the Order of Light send Arthen. She was already there when he arrived."
+    ]
+  },
+  "grimvald": {
+    "name": "Grimvald Bonestaff",
+    "title": "Deathcaller",
+    "class": "Necromancer",
+    "desc": "Drains the life force of his enemies.",
+    "lore": [
+      "Grimvald Bonestaff was once the most respected physician in Shadowmarsh. He sat at the bedsides of hundreds of the dying and learned to recognize the moment life leaves a body – and he decided that moment ought to be postponable.",
+      "His studies took him into forbidden archives and out the other side as something else. He can drain the life force from an enemy and give it to himself. He can curse a man so that his own armor seems heavier than the mountain. He no longer sleeps, and he talks to a staff of bone that talks back.",
+      "But Grimvald has never raised the dead. It is the line he refuses to cross – and the reason he hates the Lich more than anything living. \"He took my science,\" Grimvald says, \"and made it a joke.\" He fights with the heroes to prove that darkness can be used without becoming it."
+    ]
+  },
+  "mira": {
+    "name": "Mira Lightdaughter",
+    "title": "Temple Sister",
+    "class": "Cleric",
+    "desc": "A humble healer with a big heart.",
+    "lore": [
+      "Mira Lightdaughter is a foundling, raised by the temple sisters at Silverhöjd – the same monastery where Arthen received his cloak. She was the child who sneaked into the infirmary at night to hold the hands of the sick, long before anyone taught her a single prayer.",
+      "The sisters discovered her gift when a soldier with a mortal wound woke up healed after Mira had slept beside his bed. She was nine. She cried for three days because she did not understand what she had done. Then she asked to be taught how to do it again.",
+      "She carries the sun mace reluctantly – \"it is so I can reach the ones who need me,\" she says – and has never struck anyone who was not trying to kill one of her friends first. That has happened more often than she cares to admit."
+    ]
+  },
+  "skills": {
+    "arthen_holy_strike": {
+      "name": "Holy Strike",
+      "desc": "Physical damage and grants Arthen a shield."
+    },
+    "arthen_protective_light": {
+      "name": "Protective Light",
+      "desc": "Shields the whole team for 2 turns."
+    },
+    "arthen_hammer": {
+      "name": "Hammer of Judgment",
+      "desc": "Powerful strike. Extra damage vs undead and demons."
+    },
+    "arthen_holy_aura": {
+      "name": "Holy Aura",
+      "desc": "Heals the whole team and removes 1 debuff from all allies."
+    },
+    "lyra_frostbolt": {
+      "name": "Frostbolt",
+      "desc": "Magic attack that also lowers the target's Speed."
+    },
+    "lyra_chain_lightning": {
+      "name": "Chain Lightning",
+      "desc": "Hits the target and jumps to up to 2 extra enemies."
+    },
+    "lyra_ice_prison": {
+      "name": "Ice Prison",
+      "desc": "Freezes an enemy for 1 turn."
+    },
+    "lyra_meteor": {
+      "name": "Meteor Shower",
+      "desc": "Massive AoE damage to all enemies."
+    },
+    "kael_dragon_fangs": {
+      "name": "Dragon Fangs",
+      "desc": "Quick physical attack that applies bleed."
+    },
+    "kael_dragon_rage": {
+      "name": "Dragon's Rage",
+      "desc": "Greatly increases own ATK for 3 turns."
+    },
+    "kael_fire_breath": {
+      "name": "Fire Breath",
+      "desc": "Cone of fire hitting several enemies."
+    },
+    "kael_dragon_form": {
+      "name": "Dragon Form",
+      "desc": "Transforms into a dragon for 2 turns: massive ATK boost and immunity to crowd control."
+    },
+    "sylwen_shadow_strike": {
+      "name": "Shadow Strike",
+      "desc": "Always crits if the target has a debuff."
+    },
+    "sylwen_poison_blade": {
+      "name": "Poison Blade",
+      "desc": "Applies strong poison ticking for 3 turns."
+    },
+    "sylwen_vanish": {
+      "name": "Vanish",
+      "desc": "Becomes untargetable for 1 turn. Next attack deals greatly increased damage."
+    },
+    "sylwen_death_dance": {
+      "name": "Dance of Death",
+      "desc": "Attacks all enemies with high crit chance."
+    },
+    "thora_wild_strike": {
+      "name": "Wild Strike",
+      "desc": "Basic attack that generates Rage (+ATK)."
+    },
+    "thora_bloodthirst": {
+      "name": "Bloodthirst",
+      "desc": "The lower Thora's HP, the more damage she deals."
+    },
+    "thora_earthquake": {
+      "name": "Earthquake",
+      "desc": "AoE damage + lowers enemy ATK."
+    },
+    "thora_berserker_rage": {
+      "name": "Berserker Rage",
+      "desc": "Immunity to crowd control + lifesteal for 3 turns."
+    },
+    "elarion_starlight": {
+      "name": "Starlight",
+      "desc": "Damages an enemy and heals the most wounded ally."
+    },
+    "elarion_cosmic_shield": {
+      "name": "Cosmic Shield",
+      "desc": "Grants an ally immunity to the next debuff and a shield."
+    },
+    "elarion_soul_bond": {
+      "name": "Soul Bond",
+      "desc": "Links two allies so damage is shared between them."
+    },
+    "elarion_supernova": {
+      "name": "Supernova",
+      "desc": "Big heal on the whole team + increases their magic damage for 2 turns."
+    },
+    "brann_fireball": {
+      "name": "Fireball",
+      "desc": "Fire damage that sets the target ablaze."
+    },
+    "brann_flame_wave": {
+      "name": "Flame Wave",
+      "desc": "Fire damage to all enemies."
+    },
+    "brann_ignite": {
+      "name": "Ignite",
+      "desc": "Heavy fire attack that ignores part of the armor."
+    },
+    "brann_inferno": {
+      "name": "Inferno",
+      "desc": "Burns all enemies for 3 turns."
+    },
+    "ilva_arrow": {
+      "name": "Arrow Shot",
+      "desc": "A well-aimed shot."
+    },
+    "ilva_volley": {
+      "name": "Volley",
+      "desc": "Fires 3 arrows at random enemies."
+    },
+    "ilva_mark": {
+      "name": "Hunter's Mark",
+      "desc": "Lowers the target's DEF for 3 turns."
+    },
+    "ilva_arrow_rain": {
+      "name": "Venom Storm",
+      "desc": "Poisoned arrows on all enemies."
+    },
+    "grimvald_soul_bolt": {
+      "name": "Soul Bolt",
+      "desc": "Damages and heals Grimvald for part of the damage."
+    },
+    "grimvald_curse": {
+      "name": "Curse",
+      "desc": "Lowers the target's ATK and DEF."
+    },
+    "grimvald_drain": {
+      "name": "Life Drain",
+      "desc": "Drains life force from the enemy."
+    },
+    "grimvald_harvest": {
+      "name": "Soul Harvest",
+      "desc": "Damages and poisons all enemies."
+    },
+    "mira_smite": {
+      "name": "Smite",
+      "desc": "Holy damage to one enemy."
+    },
+    "mira_mend": {
+      "name": "Mend",
+      "desc": "Heals the most wounded ally."
+    },
+    "mira_blessing": {
+      "name": "Blessing",
+      "desc": "Raises the whole team's DEF for 2 turns."
+    },
+    "mira_holy_light": {
+      "name": "Holy Light",
+      "desc": "Heals the whole team and removes 1 debuff."
+    },
+    "vesna_chaos_bolt": {
+      "name": "Chaos Bolt",
+      "desc": "Shadow damage with a 50% chance to lower the target's ATK."
+    },
+    "vesna_chaos_rite": {
+      "name": "Chaos Rite",
+      "desc": "Sacrifices 15% of own HP. The whole team gains +25% ATK and +25% magic damage for 2 turns."
+    },
+    "vesna_entropy": {
+      "name": "Entropy",
+      "desc": "70% chance to lower DEF and SPD of all enemies for 2 turns."
+    },
+    "vesna_chaos_storm": {
+      "name": "Chaos Storm",
+      "desc": "Massive shadow damage to all enemies. Each enemy may start burning and/or be poisoned."
+    },
+    "nera_feather_dance": {
+      "name": "Feather Dance",
+      "desc": "Two quick cuts in a whirling motion."
+    },
+    "nera_pirouette": {
+      "name": "Pirouette",
+      "desc": "50% chance to dodge attacks and +20% SPD for 2 turns."
+    },
+    "nera_knife_rain": {
+      "name": "Knife Rain",
+      "desc": "Throws 4 knives at random enemies, causing bleed."
+    },
+    "nera_death_waltz": {
+      "name": "Death Waltz",
+      "desc": "Dances through all enemies with high crit chance, causing bleed."
+    },
+    "yuki_frost_bell": {
+      "name": "Frost Bell",
+      "desc": "Ice damage that lowers the target's SPD for 1 turn."
+    },
+    "yuki_frost_veil": {
+      "name": "Frost Veil",
+      "desc": "Shields the whole team with ice for 2 turns."
+    },
+    "yuki_hoarfrost_prayer": {
+      "name": "Hoarfrost Prayer",
+      "desc": "Heals the ally with the lowest HP and grants regeneration for 2 turns."
+    },
+    "yuki_winter_stillness": {
+      "name": "Winter Stillness",
+      "desc": "Ice damage to all enemies with a 50% chance to freeze them for 1 turn."
+    },
+    "lumi_sharp_note": {
+      "name": "Sharp Note",
+      "desc": "A piercing note that deals holy damage."
+    },
+    "lumi_battle_hymn": {
+      "name": "Battle Hymn",
+      "desc": "+20% ATK and +15% SPD for the whole team for 2 turns."
+    },
+    "lumi_lullaby": {
+      "name": "Lullaby",
+      "desc": "60% chance to put an enemy to sleep for 1 turn."
+    },
+    "lumi_encore": {
+      "name": "Encore",
+      "desc": "Heals the whole team and grants +20% magic damage for 2 turns."
+    },
+    "saga_moon_cut": {
+      "name": "Moon Cut",
+      "desc": "Quick slash with increased crit chance."
+    },
+    "saga_pickpocket": {
+      "name": "Pickpocket",
+      "desc": "Steals 20% ATK from the target for 2 turns."
+    },
+    "saga_smoke_bomb": {
+      "name": "Smoke Bomb",
+      "desc": "40% chance to evade attacks and +20% SPD for 2 turns."
+    },
+    "saga_moonlight_heist": {
+      "name": "Moonlight Heist",
+      "desc": "Powerful strike that ignores 30% DEF. Always crits against debuffed targets."
+    },
+    "vilja_thorn_lash": {
+      "name": "Thorn Lash",
+      "desc": "Thorn damage that causes bleeding for 2 turns."
+    },
+    "vilja_bloom": {
+      "name": "Bloom",
+      "desc": "Heals the ally with the lowest HP and grants regeneration for 3 turns."
+    },
+    "vilja_entangle": {
+      "name": "Entangle",
+      "desc": "50% chance to root each enemy for 1 turn. Lowers everyone's SPD for 2 turns."
+    },
+    "vilja_heart_of_the_forest": {
+      "name": "Heart of the Forest",
+      "desc": "Heals the whole team and grants +25% DEF for 2 turns."
+    },
+    "freja_shield_bash": {
+      "name": "Shield Bash",
+      "desc": "Lightning damage with a 20% chance to stun the target."
+    },
+    "freja_storm_wall": {
+      "name": "Storm Wall",
+      "desc": "Taunts all enemies and grants +30% DEF for 2 turns."
+    },
+    "freja_thunderclap": {
+      "name": "Thunderclap",
+      "desc": "Lightning damage to all enemies that lowers their SPD for 2 turns."
+    },
+    "freja_bastion_of_storms": {
+      "name": "Bastion of Storms",
+      "desc": "Shields the whole team for 2 turns. Freja reflects 25% of the damage she takes."
+    },
+    "nova_volatile_flask": {
+      "name": "Volatile Flask",
+      "desc": "Astral damage with a 50% chance to ignite the target."
+    },
+    "nova_catalyst": {
+      "name": "Catalyst",
+      "desc": "+25% magic damage for the whole team and removes 1 debuff from all allies."
+    },
+    "nova_acid_splash": {
+      "name": "Acid Splash",
+      "desc": "Eats through every enemy's armor: -20% DEF for 2 turns."
+    },
+    "nova_starfall_reaction": {
+      "name": "Starfall Reaction",
+      "desc": "Explosive astral damage to all enemies that poisons them for 2 turns."
+    },
+    "hilda_rune_hammer": {
+      "name": "Rune Hammer",
+      "desc": "Physical damage with a 30% chance to lower the target's DEF by 15% for 2 turns."
+    },
+    "hilda_stone_rune": {
+      "name": "Stone Rune",
+      "desc": "Carves a rune into her own armor: a shield and +25% ATK for 2 turns."
+    },
+    "hilda_earthshaker": {
+      "name": "Earthshaker",
+      "desc": "Earth damage to all enemies with a 25% chance to stun each one."
+    },
+    "hilda_forgefire_awakening": {
+      "name": "Forgefire Awakening",
+      "desc": "A massive blow that ignores 40% of armor. The whole team gains +20% DEF for 2 turns."
+    },
+    "tyra_thunder_palm": {
+      "name": "Thunder Palm",
+      "desc": "Open-palm lightning damage with a 15% chance to stun the target."
+    },
+    "tyra_flowing_step": {
+      "name": "Flowing Step",
+      "desc": "Taunts all enemies and grants +35% evasion for 2 turns."
+    },
+    "tyra_hundred_strikes": {
+      "name": "Hundred Strikes",
+      "desc": "4 lightning-fast strikes at random enemies."
+    },
+    "tyra_heaven_splitter": {
+      "name": "Heaven Splitter",
+      "desc": "A powerful blow with +25% crit chance and a 50% chance to stun. Tyra gains +30% SPD for 2 turns."
+    },
+    "solveig_spark_arrow": {
+      "name": "Spark Arrow",
+      "desc": "Lightning damage with a 30% chance to lower the target's SPD for 1 turn."
+    },
+    "solveig_forked_arrow": {
+      "name": "Forked Arrow",
+      "desc": "An arrow that bounces between enemies, jumping to 3 new targets."
+    },
+    "solveig_storm_mark": {
+      "name": "Storm Mark",
+      "desc": "Shoots the weakest enemy, ignoring 30% of armor and lowering DEF by 20% for 2 turns."
+    },
+    "solveig_thunderstorm": {
+      "name": "Thunderstorm",
+      "desc": "6 lightning arrows at random enemies, each with a 20% chance to stun."
+    },
+    "linnea_lunge": {
+      "name": "Lunge",
+      "desc": "A quick thrust with +10% crit chance."
+    },
+    "linnea_riposte": {
+      "name": "Riposte",
+      "desc": "Takes guard: reflects 30% of damage and gains +25% evasion for 2 turns."
+    },
+    "linnea_disarm": {
+      "name": "Disarm",
+      "desc": "Knocks the weapon from the enemy's hand: damage and -30% ATK for 2 turns."
+    },
+    "linnea_final_flourish": {
+      "name": "Final Flourish",
+      "desc": "An elegant finishing thrust that ignores 25% of armor. Guaranteed crit against debuffed targets."
+    },
+    "runa_spear_thrust": {
+      "name": "Spear Thrust",
+      "desc": "A straight spear thrust that ignores 15% of armor."
+    },
+    "runa_hold_the_line": {
+      "name": "Hold the Line",
+      "desc": "Plants her spear: taunts the enemies and gains +35% DEF for 2 turns."
+    },
+    "runa_sweeping_spear": {
+      "name": "Sweeping Spear",
+      "desc": "A wide sweep that hits all enemies and lowers their SPD by 20% for 2 turns."
+    },
+    "runa_last_bulwark": {
+      "name": "Last Bulwark",
+      "desc": "Grants the whole team a shield and +20% DEF for 2 turns."
+    },
+    "sable_hunting_spear": {
+      "name": "Hunting Spear",
+      "desc": "A quick jab with a 30% chance to cause bleeding."
+    },
+    "sable_wolf_pack": {
+      "name": "Wolf Pack",
+      "desc": "The pack attacks 4 random enemies and makes them bleed for 2 turns."
+    },
+    "sable_call_of_the_wild": {
+      "name": "Call of the Wild",
+      "desc": "The whole team gains +20% ATK and +15% SPD for 2 turns."
+    },
+    "sable_alpha_hunt": {
+      "name": "Alpha Hunt",
+      "desc": "The whole pack falls upon the weakest enemy. Guaranteed crit against debuffed targets and heavy bleeding for 3 turns."
+    },
+    "kaida_runic_edge": {
+      "name": "Runic Edge",
+      "desc": "A strike with the glowing runic edge with +10% crit chance."
+    },
+    "kaida_sun_sigil": {
+      "name": "Sun Sigil",
+      "desc": "Traces a sigil of light: a shield and +30% magic power for 2 turns."
+    },
+    "kaida_radiant_arc": {
+      "name": "Radiant Arc",
+      "desc": "An arc of sunlight that hits all enemies and lowers DEF by 20% for 2 turns."
+    },
+    "kaida_solar_judgment": {
+      "name": "Solar Judgment",
+      "desc": "The blade fills with the setting sun: massive damage that ignores 35% of armor (+30% vs undead and demons) and heals Kaida."
+    },
+    "petra_stone_shard": {
+      "name": "Stone Shard",
+      "desc": "Hurls a sharp shard of stone."
+    },
+    "petra_tremor": {
+      "name": "Tremor",
+      "desc": "Makes the ground shake beneath all enemies, with a 20% chance to stun."
+    },
+    "petra_stoneskin": {
+      "name": "Stoneskin",
+      "desc": "The whole team gains +30% DEF for 2 turns."
+    },
+    "petra_landslide": {
+      "name": "Landslide",
+      "desc": "A landslide buries all enemies and lowers their SPD by 25% for 2 turns."
+    },
+    "nyxara_blood_lance": {
+      "name": "Blood Lance",
+      "desc": "A lance of hardened blood that steals life from the target."
+    },
+    "nyxara_bloodletting": {
+      "name": "Bloodletting",
+      "desc": "Sacrifices 10% of her max HP for +40% magic power for 2 turns."
+    },
+    "nyxara_hemorrhage": {
+      "name": "Hemorrhage",
+      "desc": "Opens wounds on all enemies that bleed for 3 turns."
+    },
+    "nyxara_crimson_rite": {
+      "name": "Crimson Rite",
+      "desc": "Damages all enemies, +10% damage per debuff on the enemies, and steals life."
+    },
+    "berit_axe_chop": {
+      "name": "Axe Chop",
+      "desc": "A heavy chop with a 30% chance to lower the enemy's ATK by 15%."
+    },
+    "berit_bear_roar": {
+      "name": "Bear Roar",
+      "desc": "Roars like a bear: taunts the enemies and gains +40% DEF for 2 turns."
+    },
+    "berit_shield_slam": {
+      "name": "Shield Slam",
+      "desc": "Slams the tower shield into the enemy with a 35% chance to stun."
+    },
+    "berit_den_mother": {
+      "name": "Den Mother",
+      "desc": "Stands before the team: a shield and healing every turn for everyone, and draws the enemies' fury to herself."
+    },
+    "aelin_gale_thrust": {
+      "name": "Gale Thrust",
+      "desc": "A quick lance thrust that gives Aelin +10% SPD."
+    },
+    "aelin_skyward_leap": {
+      "name": "Skyward Leap",
+      "desc": "Leaps into the wind: +40% evasion for 2 turns and acts again immediately."
+    },
+    "aelin_piercing_dive": {
+      "name": "Piercing Dive",
+      "desc": "Dives at the weakest enemy, ignoring 30% of armor."
+    },
+    "aelin_tempest_charge": {
+      "name": "Tempest Charge",
+      "desc": "Rides the storm through the enemy ranks: damages all enemies and lowers their SPD by 20%."
+    },
+    "morwen_silver_bolt": {
+      "name": "Silver Bolt",
+      "desc": "A blessed silver bolt, +30% damage against undead and demons."
+    },
+    "morwen_binding_seal": {
+      "name": "Binding Seal",
+      "desc": "Fixes a seal on the target: damage, -25% ATK and -20% SPD for 2 turns."
+    },
+    "morwen_hunters_mark": {
+      "name": "Hunter's Mark",
+      "desc": "Shoots the weakest enemy and lowers DEF by 25%. Guaranteed crit against debuffed targets."
+    },
+    "morwen_purging_volley": {
+      "name": "Purging Volley",
+      "desc": "5 blessed bolts at random enemies (+50% vs undead and demons) with a chance to set them ablaze."
+    }
+  },
+  "info": "Info",
+  "upgrade_tab": "Upgrade",
+  "skins": "Skins",
+  "skins_none": "No skins yet",
+  "skin_default": "Default",
+  "skin_n": "Skin {{n}}",
+  "power_label": "Power",
+  "level_of": "Level {{level}}/{{max}}",
+  "stats_title": "Stats",
+  "owned_count": "Owned {{n}}/{{max}}",
+  "vesna": {
+    "name": "Vesna Chaoswhisper",
+    "title": "Chaos Worshipper",
+    "class": "Chaos Priestess",
+    "desc": "Sworn to chaos, she offers her own blood to warp the battlefield.",
+    "lore": [
+      "Vesna grew up in Starfall, in the village nearest the place where the star fell. Everyone else fled. Her family stayed, because they had heard the star speak in their dreams. What spoke was not a star. It was what the star had become.",
+      "The chaos cult that formed around the crater taught her that order is a lie and the only truth is change. She learned to offer her own blood to warp the battlefield, to sow entropy among enemy ranks and to laugh when everything falls apart. She is not evil. She is convinced – which may be worse.",
+      "Why she fights beside the heroes no one knows, least of all the heroes. Vesna says the Fallen Star has become predictable, and that chaos demands you change sides now and then. Arthen always keeps one eye on her. She thinks it is adorable."
+    ]
+  },
+  "nera": {
+    "name": "Nera Silkstep",
+    "title": "Blade Dancer",
+    "class": "Dancer Assassin",
+    "desc": "Moves like a dancer on stage – until the knives come out.",
+    "lore": [
+      "On the stages of Glowburg, Nera Silkstep is known as the finest dancer in all of Eldria – the one who can stand en pointe for an entire act and never blink. What no one in the audience knows is that she is paid twice per performance: once by the theatre, and once by whoever wants a certain spectator never to leave the hall.",
+      "She was trained by a retired assassin who understood that the best disguise is to be seen. The knives sit in the thigh straps under her skirt. The silk ribbon in her hand is sharpened along one edge. No one looks for a weapon on the one being applauded.",
+      "Nera joined the heroes after a contract went wrong: the target was a Drakkin chieftain, and by the time she arrived he had already burned down half the town. She danced anyway. Now she says she only wants to see how far a performance can go before the curtain falls."
+    ]
+  },
+  "yuki": {
+    "name": "Yuki Frostbloom",
+    "title": "Frost Priestess",
+    "class": "Ice Priestess",
+    "desc": "Calls on winter's stillness to shield her allies and freeze the enemy in place.",
+    "lore": [
+      "At the far edge of the Frostreach, where the Ice Queen's palace is only a blue glow on the horizon, stands a small temple of white stone that no one remembers building. Yuki Frostbloom was born in the village below and left on the temple steps one winter night when she was seven. The sisters who took her in said she did not cry. She listened – to the bells that rang in the wind though there was no wind.",
+      "The Frost Sisters do not worship the Ice Queen. They worship the stillness that lay over the wastes before she came. Yuki learned that cold can be a gift: it stops bleeding, numbs pain, and makes the raging stand still long enough to think. Her staff with its seven silver rings is the temple's oldest relic, and its bells ring only when someone nearby is lying.",
+      "When Lyra Vågsång came to the temple to ask about the new voice in the ice, Yuki was the only one who dared to answer. She joined the heroes because she had heard the same voice in her dreams since childhood – and because the bells rang when the Ice Queen's envoy promised the village peace."
+    ]
+  },
+  "lumi": {
+    "name": "Lumi Sunbeam",
+    "title": "Bard",
+    "class": "Wandering Bard",
+    "desc": "Her songs give the team courage and lull enemies to sleep mid-battle.",
+    "lore": [
+      "Lumi Sunbeam was born in an inn on the road between Norsheim and Eldria, in a room above the taproom where there was always music playing. Her mother kept the inn; her father was a visiting lute player who stayed one winter and never came back. He left a lute. She learned to play it before she learned to read.",
+      "At sixteen she set out with the lute on her back and a knife at her belt, because the roads of Norsheim are not kind to those who walk alone. She sang at markets, in barracks and by campfires, and discovered something the Elementalist Academy would call impossible: when she sang the battle song of Hallvard the soldiers struck harder, and when she hummed the inn's lullaby the shadow wolf at the edge of camp fell asleep.",
+      "The heroes first heard her in Glödborg, singing of Arthen's ride out from Silverhöjd – a ballad she had written herself without ever meeting him. Arthen thought the lyrics were exaggerated. Thora thought it was too short. Lumi came along to write a better verse, and hasn't stopped yet."
+    ]
+  },
+  "saga": {
+    "name": "Saga Moonshadow",
+    "title": "Thief",
+    "class": "Moonlight Thief",
+    "desc": "Steals the enemy's strength mid-fight and strikes hardest at those already faltering.",
+    "lore": [
+      "In the lower quarters of Glödborg, where the alleys never see sunlight and the rooftops sit so close you can cross the city without touching the ground, Saga Moonshadow grew up among pickpockets and fences. She was the smallest in the gang and the only one who never got caught. The guards called her Moonshadow because they only ever saw her when the moon was high – and by then it was already too late.",
+      "Her master was an old burglar who taught her the only rule that matters: never take anything that will be missed. Saga broke the rule exactly once. She stole a gold watch from a merchant in Glödborg, and when she opened the case she found not a movement but a small black shard that whispered. The merchant turned out to be a chaos cultist. The watch still runs. It does not show time.",
+      "Saga sought out the heroes herself, which is unusual for her. She says she wants to sell the shard back to Starfall, at the highest price. Vesna Kaosviskare looks at the watch every time they make camp. Saga lets her look. She has already swapped the chain three times."
+    ]
+  },
+  "vilja": {
+    "name": "Vilja Oakrustle",
+    "title": "Forest Druid",
+    "class": "Druid",
+    "desc": "Makes the forest grow in the middle of the battlefield – healing allies and binding enemies in roots.",
+    "lore": [
+      "Vilja Oakrustle is a half-elf, born in the deepest part of Norsheim's forests where the old oaks stand so close that shadow wolves dare not enter. Her mother was one of the last wood elves, her father a woodcutter from Hallvard who put down his axe the day he met her. Vilja grew up between two worlds and chose the one with roots.",
+      "The druid circle at Oakrustle taught her to listen to what grows: that a forest is not trees but a single being breathing slowly, and that whoever can hear its breath can also ask for help. Her staff is a branch from the oldest oak, still living, and the flower at its tip blooms whenever someone nearby is healed. She carries a sickle at her belt, but it's for herbs. She says so every time someone asks.",
+      "When Ilva Skogsvakt came to the circle with an arrow whose tip was poisoned by something that did not come from the forest, Vilja understood that Starfall's corruption had reached the roots. She left Oakrustle for the first time in her life. The forest, she says, asked her to go."
+    ]
+  },
+  "freja": {
+    "name": "Freja Stormheart",
+    "title": "Shield Maiden",
+    "class": "Storm Knight",
+    "desc": "Stands like a wall in the storm and draws the enemy's fury to herself – and back onto them.",
+    "lore": [
+      "The Stormheart line has guarded Norsheim's northern pass for eleven generations, from a keep built so high that lightning strikes its towers more often than anything else in the realm. Freja was born during a thunderstorm, and the family chronicle claims she only started crying when the thunder stopped. She learned to hold a shield before she learned to hold a spoon.",
+      "The Order's knights at Silverhöjd do not accept women. Freja rode there anyway, seventeen years old, and challenged the gatekeeper to a duel for the right to enter. She lost. She came back the next day. And the next. On the fourteenth day Arthen grew tired of watching and gave her his own shield to train with. She never returned it. He hasn't asked.",
+      "The lightning that strikes her shield is not magic – it is the family's blessing, or curse, depending on who you ask. Freja asks no one. She stands where the shadows are thickest, lets them strike, and lets the storm answer. Those who fight behind her say you get used to the thunder. You never get used to the light."
+    ]
+  },
+  "nova": {
+    "name": "Nova Starfall",
+    "title": "Alchemist",
+    "class": "Star Alchemist",
+    "desc": "Mixes stardust and acid in her flasks – empowering the team and eating through enemy armor.",
+    "lore": [
+      "Nova was born in Starfall, in a village that no longer exists, three days before the star fell. Her parents fled with her in their arms and settled in Eldria, where they took the name Starfall so they would never forget. Nova grew up in the shadow of the Elementalist Academy but never found a place there: she had no talent for magic. She had something else. She could see what things were made of.",
+      "The Academy's alchemists took her on as an apprentice, and within two years she had blown up three laboratories and discovered that stardust from the crater in Starfall reacts to living blood. Her glasses have lenses ground from the same glass as the Frostreach lighthouse crystals – they let her see the currents of magic as colors. She changes the contents of the vials on her bandolier every morning. No one else may touch it.",
+      "She joined the heroes because they were heading for the crater and she needed samples. That's what she says, anyway. Grimvald Benstav pointed out one evening that her parents never said which village they came from. Nova didn't answer. The next morning her notebook was one page thicker."
+    ]
+  },
+  "hilda": {
+    "name": "Hilda Runehammer",
+    "title": "Runesmith",
+    "class": "Dwarven Runesmith",
+    "desc": "Hammers runes into stone and steel – shattering enemy armor and standing firm when the mountain shakes.",
+    "lore": [
+      "Beneath Norsheim's northern peaks, where the stone clan's mines end and the old dwarven halls begin, the Runehammer line has worked the forge for two hundred years. Hilda is the last of them who can still read the old runes – and the only one who knows they were not carved for decoration, but to hold something down.",
+      "It was she who forged Thora Ironhand's iron hand, the night after the Stone Knolls woke. Thora asked her to make it heavier. Hilda made it heavier, and carved a rune on the inside of the grip that Thora still doesn't know about. It grows warm when she bleeds. Hilda says it's bad metal. It isn't.",
+      "When the runes in the deepest halls began to glow on their own, in the same pale violet as the crater stone of Starfall, Hilda banked her forge for the first time in her life and climbed up into daylight. She has not gotten used to the sky. She says it is too big and has no ceiling. But she brought her anvil hammer, and every evening in camp she carves a new rune into someone's shield – without asking."
+    ]
+  },
+  "tyra": {
+    "name": "Tyra Thunderfist",
+    "title": "Storm Monk",
+    "class": "Thunder Monk",
+    "desc": "Fights barehanded with lightning in her fists – dancing away from blows and drawing the enemy's fury to herself.",
+    "lore": [
+      "High above Norsheim's northern pass, where the clouds hang lower than the monastery roof, stands the Thunder Monastery – a stone house whose monks believe lightning is not something to flee from but something to learn to receive. Tyra was left at the gate as an infant on a stormy night. The monks say lightning struck the bell tower at the very moment she stopped crying.",
+      "She was never allowed to carry a weapon. The monastery's rule is simple: whoever needs a sword has already lost the distance. Instead Tyra learned to stand barefoot on the rock shelf during thunderstorms, to breathe slowly when her hair stood on end, and to let the lightning pass through her body and out through her palms. Her wrapped hands are covered in small white scars that look like frost. She calls them her teachers.",
+      "When Freja Stormheart rode past the monastery on her way south she stopped to ask for water. Tyra asked for a duel. Freja raised her shield; Tyra struck it until the lightning in the shield and the lightning in her fist met and both of them flew backwards. They laughed for half an hour. The next morning Tyra was gone from the monastery, and the abbot is said to have sighed with relief."
+    ]
+  },
+  "solveig": {
+    "name": "Solveig Thunderarrow",
+    "title": "Storm Archer",
+    "class": "Lightning Archer",
+    "desc": "Catches lightning on her arrows – shots that leap between enemies and a thunder rain that stuns the whole field.",
+    "lore": [
+      "On the Frostreach coast, where winter storms come in from the sea with lightning and ice in the same breath, the people hunt storm gulls – birds that only fly when it thunders. Solveig Thunderarrow was the first in her village to hit one in a full storm. The arrow she shot came back to earth glowing, and she has never fired an ordinary arrow since.",
+      "Her bow is made of ash and whalebone, but the string is silver wire from the Wavesong family's lighthouse – a gift from Lyra, whom she grew up with. Lyra calls the lightning. Solveig catches it. As children they would stand on the lighthouse cliff during thunderstorms, one with her hands raised to the sky and one with her bow drawn, to see which of them could make the lightning strike closest to the other. Their mothers forbade it. They never stopped.",
+      "When Lyra's lighthouse crystal stopped shining toward the Ice Queen's palace, it was Solveig who fired the first arrow at the ice – and watched it go dark in mid-air. She followed Lyra south the next day. She says she only wants to know what can put out lightning. She has changed arrowheads three times since, and each time they burn a little brighter."
+    ]
+  },
+  "linnea": {
+    "name": "Linnea Silverblade",
+    "title": "Duelist",
+    "class": "Fencing Master",
+    "desc": "Fights with rapier and parrying dagger – disarming the enemy, returning every blow and finishing with one last elegant thrust.",
+    "lore": [
+      "Silverblade is one of the oldest noble houses in Glowburg, and one of the poorest. All the family has left of its former glory is a silver-hilted rapier and a rule: a Silverblade never backs down from a challenge. Linnea took the rule literally. By fifteen she had won forty-two duels, lost one, and demanded a rematch the next day.",
+      "She was trained by the city's old fencing master, a one-eyed man who claimed a duel is decided before the blades meet – in how you stand, in what you look at, in what you let your opponent believe. Linnea learned to smile in the middle of a parry and to give thanks for every hit she took. She still carries his parrying dagger in her left hand. He died in a duel he didn't need to fight. She has never forgiven him for it.",
+      "When a Drakkin chieftain burned down half the quarter where the Silverblade house stood, Linnea challenged him formally, with a glove and witnesses. He laughed. She struck him three times before he stopped. It was Nera Silkstep who pulled her out of the fire afterwards. Linnea has thanked her once, stiffly and with a bow. Nera has not stopped teasing her about it."
+    ]
+  },
+  "runa": {
+    "name": "Runa Spearwarden",
+    "title": "Spear Warden",
+    "class": "Spear Guardian",
+    "desc": "Stands firm with spear and shield – holding the enemy's attention and giving the team a wall to stand behind.",
+    "lore": [
+      "At Norsheim's southern ford, where the trade road to Eldria crosses the river, the Spearwardens have held the bridge for four hundred years. They are no order and no nobility – just farmers who take turns standing guard with a spear and a wooden shield, one winter at a time. Runa took her first watch at thirteen. She has never handed it over.",
+      "She got the scar on her brow the night the shadow wolves came down from the forest. Four spearwardens stood on the bridge. Three of them ran. Runa stayed until dawn with her spear planted in the planks, and when the sun rose seven wolves lay in the river and none had crossed. She says she was not brave, just too tired to move.",
+      "When Arthen rode south he stopped at the bridge and asked who held it. The farmers pointed at Runa. He asked if she wanted to come along. She answered that someone had to hold the bridge. He answered that the Fallen Star does not care about bridges. The next morning she gave her green tabard to a twelve-year-old and went after him. She has not said a word about it since, but every evening she turns to face north before she falls asleep."
+    ]
+  },
+  "sable": {
+    "name": "Sable Wildmark",
+    "title": "Beastmaster",
+    "class": "Wilds Hunter",
+    "desc": "Hunts with the beasts of the wild at her side – a pack that tears into the enemy and a call that makes the whole team faster.",
+    "lore": [
+      "No one knows for certain where Sable comes from. The fur trappers of Norsheim's northern forests found her when she was perhaps six years old, living with a wolf litter in a cave no human had entered in a hundred years. She could not speak. She could, however, make the pack's alpha roll onto its back with a single look.",
+      "The trappers taught her language, the spear and how to skin. She taught them to listen. No one in the village ever got a bear to follow them like a dog, but Sable did it twice before she turned fifteen. She does not wear the wolf-fang necklace as a trophy – each fang comes from a pack member that died of old age, and she can name every one of them.",
+      "It was the animals that noticed first. The wolves of the northern forest began wandering south, the deer stopped grazing in the clearings, and the ravens sat silent in the trees. When the shadow wolves appeared – black, silent, with eyes like the crater stone of Starfall – Sable understood that something was poisoning the wild itself. She went to hunt it. The pack still follows her, always just out of sight."
+    ]
+  },
+  "kaida": {
+    "name": "Kaida Sundown",
+    "title": "Spellblade",
+    "class": "Sunblade",
+    "desc": "Unites sword and magic – a high elf whose runic blade shines with the light of sunset and punishes the creatures of darkness.",
+    "lore": [
+      "Sundown is the oldest house of the high elven capital, and its swords have been borne for four thousand years. Every Sundown is born with a rune in the palm of her hand, and every Sundown learns one thing from childhood: a sword without magic is only metal, and magic without a sword is only words. Kaida was the first in three generations to master both before she turned a hundred.",
+      "Her blade is named Afterglow, forged in the last minute of sunset on the high elves' sacred spire. The runes along its edge glow gold when it is drawn, and a deeper red the longer the battle lasts. It is said Afterglow has never gone fully dark, not even in the gloom of Shadowmarsh. Kaida claims it is not the sword that shines, but the darkness that draws back.",
+      "The high elves have always stayed out of the wars of men. When the Fallen Star came down, the council forbade any involvement. Kaida obeyed for three years. Then she watched from the spire as the sun set over Starfall and did not return to the same place the next morning. She rode out that same day, without the council's blessing. She says her people have seen enough sunsets."
+    ]
+  },
+  "petra": {
+    "name": "Petra Earthward",
+    "title": "Geomancer",
+    "class": "Earth Mage",
+    "desc": "Speaks with the mountain – making the ground shake beneath the enemy and giving the team skin of stone.",
+    "lore": [
+      "Petra Earthward grew up in the mining town beneath Norsheim's southern fells, daughter of a geologist who mapped the tunnels and a mother who sang to them. The miners said Petra could hear where the ore lay. She said it was the stone that talked and that the grown-ups just didn't listen.",
+      "The Elementalist Academy in Eldria accepted her as a student but never quite knew what to do with her. Fire and ice bored her, and she spent her lessons on the floor with her palms pressed to the flagstones. When one afternoon she made the whole lecture hall rise a metre so she could see the board better, she was moved to a room of her own in the cellar. She liked it better there.",
+      "She collects stone samples in her belt – one from every place she has been – and knows them all by name. When the Stone Knolls woke in Thora Ironhand's mines and the Elder Stone Giant rose from the ruins, Petra understood that something had made the mountain itself wake in anger. She wants to know what. She says the mountain cannot lie, but it can be afraid."
+    ]
+  },
+  "nyxara": {
+    "name": "Nyxara Vell",
+    "title": "Blood Witch",
+    "class": "Hemomancer",
+    "desc": "Sacrifices her own blood for power – opening wounds on every enemy and stealing the life from them.",
+    "lore": [
+      "In the Whispering Halls, the hidden city of the dark elves in Shadowmarsh, blood magic has been forbidden for a thousand years. That has never stopped anyone from studying it – only from admitting it. Nyxara Vell admitted it. She was nineteen when she stood before the council with bandaged arms and explained, calmly and at length, why the law was wrong.",
+      "She was banished the same evening. She took her instruments with her: a bronze bowl, a silver lancet and a book bound in red leather that she lets no one read. She has lived in the marshes since, among witches and hermits who have taught her more than the council ever could. Her forearms are covered in scars in careful rows. She can tell you what each scar cost and what it bought.",
+      "Nyxara does not fight alongside the heroes out of kindness. She fights because the Blood Master and the Vampire Lord use her art without understanding it, and she means to prove she is better. Sylwen Nightblade recognizes her from the Halls and does not trust her. Grimvald Bonestaff trusts her even less but sometimes borrows her notes. Nyxara pretends not to notice."
+    ]
+  },
+  "berit": {
+    "name": "Berit Shieldroot",
+    "title": "Shieldbear",
+    "class": "Tower Shield",
+    "desc": "A living wall with tower shield and axe – roaring to draw the enemy in and protecting the whole team.",
+    "lore": [
+      "In Norsheim's highland bear country they say a Shieldroot is not born but rooted. The family has guarded the valley pass for generations, and every child gets its first shield before it can walk. Berit got hers when she was two. It was bigger than she was. She refused to let go of it.",
+      "She grew up to be the biggest woman in the valley and the most stubborn. When a she-bear with cubs made her den in the middle of the pass one spring, Berit sat before the den for three days without moving – not to drive it away, but to stop the hunters from killing it. In the end the bear left on its own. Berit got her nickname, and the village smith forged the bear-motif pauldrons that same autumn.",
+      "She rarely talks and laughs loudly. When Thora Ironhand came through the valley and challenged her to arm-wrestling they stood for an hour without either winning. Then they shared a barrel of ale and have been inseparable ever since. Berit says she follows the heroes because someone has to stand in front of them. Thora says she follows them because Berit does."
+    ]
+  },
+  "aelin": {
+    "name": "Aelin Windlance",
+    "title": "Wind Lancer",
+    "class": "Lancer",
+    "desc": "Rides the wind with her winged lance – diving at the weakest enemy and striking again before anyone can react.",
+    "lore": [
+      "High on Eldria's wind cliffs lies the Eyrie, where the lancers train to leap from the cliffs with winged lances and let the wind carry them. Most who try land in the net. Aelin landed in the net forty times. The forty-first time she did not land at all – she flew a full circle around the cliff before setting her feet down on the same stone she had jumped from.",
+      "The lance she carries is made of ash wood and falcon feathers, and the pennants along the shaft catch the wind even when the air is still. Her teacher said the wind can never be forced, only persuaded. Aelin took that to mean you have to be faster than it. She has broken her leg three times and her arm twice. She says it was worth it every time.",
+      "When the storms over Eldria began to blow the wrong way – inward toward Starfall, as if something there was drawing the air to itself – Aelin was the only one in the Eyrie who dared fly into them. She came back with ice in her hair and a name on her lips she could not explain. She has been searching for the source of the wind ever since, and she intends to get there first."
+    ]
+  },
+  "morwen": {
+    "name": "Morwen Ashhunter",
+    "title": "Witch Hunter",
+    "class": "Inquisitor",
+    "desc": "Hunts witches and undead with blessed silver bolts – binding the enemy with seals and purging the battlefield with fire.",
+    "lore": [
+      "The Ashhunters are an old fellowship within the Order of Light in Silverhöjd: women and men sworn to hunt what the shadows awaken. They wear no mantles and carry no banner, only a grey coat, a silver-inlaid crossbow and a book of names. Morwen was the youngest ever to receive her book. She has struck more names from it than any other living ashhunter.",
+      "She began hunting when her sister died in Shadowmarsh, sacrificed by a cult that promised her eternal life. Morwen tracked the cult for two years, through bogs and crypts, and when she finally found them she was no longer who she had been. She rarely smiles. She sleeps with her crossbow cocked. She counts her silver bolts every evening, twice.",
+      "She and Nyxara Vell have met before, on opposite sides of a pyre. Neither of them speaks of it. Morwen joined the heroes because the Lich and the Blood Master stand at the top of her book, but she has written two more names on the last page and refuses to say whose. Arthen thinks one of them is Vesna. Vesna thinks the other is Arthen."
+    ]
+  },
+  "lore_title": "Lore",
+  "lore_heading": "Story"
+}

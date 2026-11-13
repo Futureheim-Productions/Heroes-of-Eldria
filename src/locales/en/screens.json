@@ -1,0 +1,504 @@
+{
+  "main-menu": {
+    "title": "Main Menu",
+    "adventure": "Adventure",
+    "heroes": "Heroes",
+    "inventory": "Inventory",
+    "shop": "Shop",
+    "quests": "Quests",
+    "arena": "Arena",
+    "guild": "Guild",
+    "mail": "Mail",
+    "profile": "Profile",
+    "formation": "Team",
+    "settings": "Settings",
+    "season": "Season {{number}}",
+    "season_name": "Awakening of Shadows",
+    "play": "Play",
+    "continue": "Continue adventure",
+    "team_power": "Team power",
+    "welcome": "Welcome back, {{name}}!",
+    "event_banner": "Double XP in Norsheim this week!",
+    "daily_reward": "Daily reward",
+    "event": "Event",
+    "read_more": "Read more",
+    "season_desc": "The shadows are waking over Norsheim. Clear the regions, collect stars and unlock the season rewards."
+  },
+  "world-map": {
+    "title": "World Map",
+    "stages": "{{n}} stages",
+    "locked_hint": "Clear the previous region to unlock",
+    "stars": "{{stars}}/{{max}} stars",
+    "regions": {
+      "norsheim": {
+        "name": "Norsheim",
+        "desc": "Dark forests where shadow wolves hunt in packs."
+      },
+      "eldria": {
+        "name": "Eldria",
+        "desc": "Volcanic plains ruled by dragon blood."
+      },
+      "shadowmarsh": {
+        "name": "Shadowmarsh",
+        "desc": "Swamps crawling with undead and necromancers."
+      },
+      "frostreach": {
+        "name": "Frostreach",
+        "desc": "The frozen realm of the Ice Queen."
+      },
+      "starfall": {
+        "name": "Starfall",
+        "desc": "Where a star fell and corrupted everything."
+      },
+      "mistfen": {
+        "name": "Mistfen",
+        "desc": "Poisoned fens where plague monks worship something that hums in the fog."
+      },
+      "emberforge": {
+        "name": "Emberforge",
+        "desc": "The abandoned forges of the dwarves, where the metal itself has woken."
+      },
+      "stormpeaks": {
+        "name": "Stormpeaks",
+        "desc": "Icy summits where the thunder never falls silent."
+      },
+      "drownedcoast": {
+        "name": "Drowned Coast",
+        "desc": "A coast where the drowned refuse to lie still."
+      },
+      "cathedral": {
+        "name": "Silent Cathedral",
+        "desc": "The sanctuary where every name has been erased."
+      }
+    }
+  },
+  "dungeon": {
+    "title": "Select stage",
+    "stage": "Stage {{n}}",
+    "boss": "BOSS",
+    "normal": "Normal",
+    "hard": "Hard",
+    "energy_cost": "{{n}} energy",
+    "recommended": "Rec. power {{n}}",
+    "enemies": "Enemies",
+    "rewards": "Rewards",
+    "possible_drops": "Possible drops",
+    "first_clear": "First clear",
+    "start": "Start battle",
+    "locked": "Stage is locked",
+    "hard_locked": "Clear the region on Normal first",
+    "no_energy": "Not enough energy",
+    "no_formation": "You need at least one hero in your team",
+    "your_team": "Your team",
+    "edit_team": "Edit team",
+    "stages": {
+      "norsheim_1": { "name": "Shadowy Wolf Forest" },
+      "norsheim_2": { "name": "Spiderweb Thicket" },
+      "norsheim_3": { "name": "Bonewhite Crossing" },
+      "norsheim_4": { "name": "Toxic Mushroom Marshes" },
+      "norsheim_5": { "name": "The Giant's Ruined Lair" },
+      "eldria_1": { "name": "Smoking Ash Plains" },
+      "eldria_2": { "name": "Drakkin's Lava Ridge" },
+      "eldria_3": { "name": "Iron-Forged Crater" },
+      "eldria_4": { "name": "Drakkin Tribe's Bastion" },
+      "eldria_5": { "name": "The Black Drakeling's Lair" },
+      "shadowmarsh_1": { "name": "Sunken Grave Marsh" },
+      "shadowmarsh_2": { "name": "Banshee's Misty Fen" },
+      "shadowmarsh_3": { "name": "Black Knight's Causeway" },
+      "shadowmarsh_4": { "name": "Necromancer's Cursed Grove" },
+      "shadowmarsh_5": { "name": "The Lich's Crypt" },
+      "frostreach_1": { "name": "Rimefrost Tundra" },
+      "frostreach_2": { "name": "Storm Crystal Wasteland" },
+      "frostreach_3": { "name": "Vampire's Frozen Hollow" },
+      "frostreach_4": { "name": "Iron Glacier Bastion" },
+      "frostreach_5": { "name": "The Ice Queen's Throne Hall" },
+      "starfall_1": { "name": "Soul Eater's Wasteland" },
+      "starfall_2": { "name": "The Corrupted Tree Realm" },
+      "starfall_3": { "name": "Mirror Warden's Sanctum" },
+      "starfall_4": { "name": "The Time-Twisted Rift" },
+      "starfall_5": { "name": "The Fallen Star's Crater" },
+      "mistfen_1": {
+        "name": "Rotwater Shore"
+      },
+      "mistfen_2": {
+        "name": "Veiled Reeds"
+      },
+      "mistfen_3": {
+        "name": "Silk Matron's Nest"
+      },
+      "mistfen_4": {
+        "name": "The Mire Hag's Hut"
+      },
+      "mistfen_5": {
+        "name": "The Plague Moth's Cocoon"
+      },
+      "emberforge_1": {
+        "name": "Ash Gates"
+      },
+      "emberforge_2": {
+        "name": "Rust Tunnels"
+      },
+      "emberforge_3": {
+        "name": "Magma Hall"
+      },
+      "emberforge_4": {
+        "name": "The Tyrant's Forge"
+      },
+      "emberforge_5": {
+        "name": "Throne of the Slag King"
+      },
+      "stormpeaks_1": {
+        "name": "Wolf Pass"
+      },
+      "stormpeaks_2": {
+        "name": "Harpy Cliffs"
+      },
+      "stormpeaks_3": {
+        "name": "Pale Stag's Glade"
+      },
+      "stormpeaks_4": {
+        "name": "Colossus Glacier"
+      },
+      "stormpeaks_5": {
+        "name": "The Storm Jarl's High Seat"
+      },
+      "drownedcoast_1": {
+        "name": "Bone Beach"
+      },
+      "drownedcoast_2": {
+        "name": "Coral Reef"
+      },
+      "drownedcoast_3": {
+        "name": "Cave of Lament"
+      },
+      "drownedcoast_4": {
+        "name": "The Admiral's Wreck"
+      },
+      "drownedcoast_5": {
+        "name": "The Kraken Matriarch's Deep"
+      },
+      "cathedral_1": {
+        "name": "Lantern Walk"
+      },
+      "cathedral_2": {
+        "name": "Nave of Glass"
+      },
+      "cathedral_3": {
+        "name": "Oathbreaker's Altar"
+      },
+      "cathedral_4": {
+        "name": "Dome of the Eclipse"
+      },
+      "cathedral_5": {
+        "name": "Choir of the Hollow Saint"
+      }
+    }
+  },
+  "combat": {
+    "start_battle": "Start battle",
+    "victory": "Victory!",
+    "defeat": "Defeat",
+    "your_turn": "Your turn",
+    "enemy_turn": "Enemy turn",
+    "damage": "{{value}} damage",
+    "critical": "Critical hit!",
+    "reward_gold": "+{{amount}} gold",
+    "auto": "Auto",
+    "speed": "x{{n}}",
+    "retreat": "Retreat",
+    "round": "Round {{n}}",
+    "choose_target": "Choose target",
+    "skip": "Skips turn",
+    "charmed": "Charmed!",
+    "immune": "Immune",
+    "resist": "Resisted",
+    "dodge": "Dodged",
+    "revived": "Revived!",
+    "summoned": "Summoned",
+    "rewards": "Rewards",
+    "hero_xp": "Hero XP",
+    "first_clear_bonus": "First clear bonus!",
+    "continue": "Continue",
+    "retry": "Retry",
+    "rank_change": "Rank points {{delta}}",
+    "defeat_hint": "Upgrade your heroes or enhance your gear and try again.",
+    "status": {
+      "shield": "Shield",
+      "poison": "Poison",
+      "bleed": "Bleed",
+      "burn": "Burning",
+      "atkUp": "ATK+",
+      "atkDown": "ATK-",
+      "defUp": "DEF+",
+      "defDown": "DEF-",
+      "spdDown": "SPD-",
+      "spdUp": "SPD+",
+      "stun": "Stunned",
+      "freeze": "Frozen",
+      "stealth": "Stealth",
+      "ccImmune": "CC immune",
+      "debuffImmune": "Debuff immune",
+      "lifesteal": "Lifesteal",
+      "taunt": "Taunt",
+      "charm": "Charmed",
+      "magicUp": "Magic+",
+      "soulLink": "Soul link",
+      "regen": "Regen",
+      "dragonForm": "Dragon form",
+      "evasion": "Evasion",
+      "reflect": "Reflect",
+      "reviveOnce": "Revives",
+      "web": "Webbed",
+      "rage": "Rage",
+      "defensiveForm": "Defensive",
+      "haste": "Haste"
+    }
+  },
+  "inventory": {
+    "title": "Inventory",
+    "all": "All",
+    "equipment": "Equipment",
+    "materials": "Materials",
+    "empty": "Inventory is empty",
+    "equipped_by": "Worn by {{name}}",
+    "enhance": "Enhance",
+    "enhance_cost": "{{gold}} gold · {{stones}} stone(s)",
+    "sell": "Sell",
+    "sell_price": "Sell for {{gold}} gold",
+    "use": "Use",
+    "equip_to": "Equip to",
+    "not_enough_stones": "Not enough enhancement stones",
+    "max_enhance": "Max enhancement",
+    "qty": "x{{n}}",
+    "set": "Set: {{name}} ({{pieces}} pieces)",
+    "material_desc": {
+      "enhanceStone": "Used to enhance equipment.",
+      "xpPotion": "Grants {{value}} XP to a hero.",
+      "skillBook": "Used to upgrade skills.",
+      "awakenCrystal": "Required for star-ups at 4+ stars.",
+      "energyPotion": "Restores {{value}} energy."
+    }
+  },
+  "quests": {
+    "title": "Quests",
+    "main": "Main",
+    "side": "Side",
+    "daily": "Daily",
+    "weekly": "Weekly",
+    "progress": "{{current}}/{{target}}",
+    "reward": "Reward",
+    "empty": "No quests here right now",
+    "completed": "Done!",
+    "objective": {
+      "winBattles": "Win {{count}} battles",
+      "clearStage": "Clear {{stage}}",
+      "levelHero": "Get a hero to level {{level}}",
+      "summon": "Summon {{count}} heroes",
+      "enhanceEquipment": "Enhance equipment {{count}} times",
+      "spendEnergy": "Spend {{amount}} energy",
+      "reachPlayerLevel": "Reach player level {{level}}",
+      "ownHeroes": "Own {{count}} heroes",
+      "arenaBattles": "Fight {{count}} times in the arena",
+      "guildContribute": "Contribute to the guild {{count}} time(s)",
+      "claimDaily": "Log in {{count}} day(s)"
+    }
+  },
+  "shop": {
+    "title": "Shop",
+    "featured": "Featured",
+    "daily": "Daily",
+    "summon": "Summon",
+    "currency": "Gems",
+    "buy": "Buy",
+    "sold_out": "Sold out",
+    "limit": "{{n}} left",
+    "cannot_afford": "You cannot afford this",
+    "not_enough_gems": "Not enough gems",
+    "summon_1": "Summon x1",
+    "summon_10": "Summon x10",
+    "pity": "Guaranteed legendary in {{n}}",
+    "rates": "Rates",
+    "new_hero": "NEW!",
+    "shards_gained": "+5 shards",
+    "summon_result": "Results",
+    "iap_note": "Real-money purchases are enabled at launch – in dev mode the reward is granted directly.",
+    "offers": {
+      "starter_pack": {
+        "name": "Starter Pack",
+        "desc": "Everything you need to get going."
+      },
+      "dragon_bundle": {
+        "name": "Dragon Bundle",
+        "desc": "Dragon Glaive + 5 awakening crystals."
+      },
+      "skill_bundle": {
+        "name": "Skill Bundle",
+        "desc": "5 skill books."
+      },
+      "daily_gold_s": {
+        "name": "Gold Pouch",
+        "desc": "5,000 gold"
+      },
+      "daily_gold_l": {
+        "name": "Gold Chest",
+        "desc": "25,000 gold"
+      },
+      "daily_energy": {
+        "name": "Energy Refill",
+        "desc": "+50 energy"
+      },
+      "daily_xp": {
+        "name": "XP Potions",
+        "desc": "3 XP potions"
+      },
+      "daily_stone": {
+        "name": "Enhancement Stones",
+        "desc": "3 stones"
+      },
+      "daily_keys": {
+        "name": "Keys",
+        "desc": "2 keys"
+      },
+      "gems_100": {
+        "name": "Handful of Gems",
+        "desc": "100 gems"
+      },
+      "gems_550": {
+        "name": "Pouch of Gems",
+        "desc": "550 gems"
+      },
+      "gems_1200": {
+        "name": "Chest of Gems",
+        "desc": "1,200 gems"
+      },
+      "gems_3200": {
+        "name": "Vault of Gems",
+        "desc": "3,200 gems"
+      },
+      "arena_shards_sylwen": {
+        "name": "Sylwen Shards",
+        "desc": "5 shards"
+      },
+      "arena_shards_ilva": {
+        "name": "Ilva Shards",
+        "desc": "5 shards"
+      },
+      "arena_crit_charm": {
+        "name": "Lucky Charm",
+        "desc": "Rare accessory"
+      },
+      "arena_stones": {
+        "name": "Enhancement Stones",
+        "desc": "5 stones"
+      },
+      "guild_shards_mira": {
+        "name": "Mira Shards",
+        "desc": "5 shards"
+      },
+      "guild_shards_brann": {
+        "name": "Brann Shards",
+        "desc": "5 shards"
+      },
+      "guild_awaken": {
+        "name": "Awakening Crystals",
+        "desc": "2 crystals"
+      },
+      "guild_xp": {
+        "name": "Large XP Potion",
+        "desc": "5,000 XP"
+      }
+    },
+    "badge": {
+      "hot": "HOT",
+      "value": "VALUE",
+      "new": "NEW"
+    }
+  },
+  "pvp": {
+    "title": "Arena",
+    "rank": "Rank #{{n}}",
+    "points": "{{n}} points",
+    "attempts": "{{n}}/{{max}} battles left today",
+    "no_attempts": "No battles left today",
+    "opponents": "Opponents",
+    "refresh": "Refresh",
+    "fight": "Challenge",
+    "history": "History",
+    "won": "Won",
+    "lost": "Lost",
+    "arena_shop": "Arena Shop",
+    "power": "Power {{n}}"
+  },
+  "guild": {
+    "title": "Guild",
+    "join": "Join",
+    "create": "Create guild",
+    "leave": "Leave guild",
+    "members": "{{n}}/{{max}} members",
+    "level": "Guild level {{n}}",
+    "contribute": "Contribute (1,000 gold)",
+    "contributed": "Contributed today",
+    "contribution": "Your contribution: {{n}}",
+    "guild_shop": "Guild Shop",
+    "member_list": "Members",
+    "name_placeholder": "Guild name",
+    "no_guild": "You are not in a guild yet.",
+    "role": {
+      "leader": "Leader",
+      "officer": "Officer",
+      "member": "Member"
+    },
+    "you": "You",
+    "created_desc": "Your own guild. Invite friends (coming soon)."
+  },
+  "settings": {
+    "title": "Settings",
+    "language": "Language",
+    "audio": "Audio",
+    "music": "Music",
+    "sfx": "Sound Effects",
+    "other": "Other",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "logout": "Log Out",
+    "version": "Version {{version}}",
+    "account": "Account",
+    "player_name": "Player name",
+    "reset": "Reset all progress",
+    "reset_confirm": "Are you sure? All progress will be deleted.",
+    "reset_done": "Progress has been reset"
+  },
+  "profile": {
+    "title": "Profile",
+    "stats": "Statistics",
+    "battles_won": "Battles won",
+    "battles_lost": "Battles lost",
+    "summons": "Summons",
+    "enhances": "Enhancements",
+    "arena_wins": "Arena wins",
+    "heroes_owned": "Heroes",
+    "total_stars": "Stars",
+    "team_power": "Team power",
+    "avatar": "Choose avatar",
+    "member_since": "Member since {{date}}",
+    "login_streak": "Login streak: {{n}} days",
+    "xp_to_next": "{{current}}/{{needed}} XP"
+  },
+  "mail": {
+    "title": "Mail",
+    "empty": "Inbox is empty",
+    "delete": "Delete",
+    "welcome_title": "Welcome to Heroes of Eldria!",
+    "welcome_body": "Thanks for playing. Here is a small gift to get you started.",
+    "login_title": "Daily login – day {{day}}",
+    "login_body": "Your daily login reward. Come back tomorrow for more!"
+  },
+  "formation": {
+    "title": "Team",
+    "slot": "Slot {{n}}",
+    "choose_hero": "Choose hero",
+    "remove": "Remove",
+    "power": "Total power: {{n}}",
+    "hint": "Pick up to 5 heroes. Turn order is decided by SPD."
+  }
+}

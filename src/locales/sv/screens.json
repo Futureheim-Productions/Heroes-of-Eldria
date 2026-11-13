@@ -1,0 +1,504 @@
+{
+  "main-menu": {
+    "title": "Huvudmeny",
+    "adventure": "Äventyr",
+    "heroes": "Hjältar",
+    "inventory": "Inventarie",
+    "shop": "Butik",
+    "quests": "Uppdrag",
+    "arena": "Arena",
+    "guild": "Gille",
+    "mail": "Post",
+    "profile": "Profil",
+    "formation": "Lag",
+    "settings": "Inställningar",
+    "season": "Säsong {{number}}",
+    "season_name": "Skuggornas Uppvaknande",
+    "play": "Spela",
+    "continue": "Fortsätt äventyret",
+    "team_power": "Lagstyrka",
+    "welcome": "Välkommen tillbaka, {{name}}!",
+    "event_banner": "Dubbla XP i Norsheim denna vecka!",
+    "daily_reward": "Daglig belöning",
+    "event": "Event",
+    "read_more": "Läs mer",
+    "season_desc": "Skuggorna vaknar över Norsheim. Klara regionerna, samla stjärnor och lås upp säsongens belöningar."
+  },
+  "world-map": {
+    "title": "Världskarta",
+    "stages": "{{n}} nivåer",
+    "locked_hint": "Klara föregående region för att låsa upp",
+    "stars": "{{stars}}/{{max}} stjärnor",
+    "regions": {
+      "norsheim": {
+        "name": "Norsheim",
+        "desc": "Mörka skogar där skuggvargar jagar i flock."
+      },
+      "eldria": {
+        "name": "Eldria",
+        "desc": "Vulkaniska slätter styrda av drakblod."
+      },
+      "shadowmarsh": {
+        "name": "Skuggmarkerna",
+        "desc": "Träsk fyllda av odöda och nekromantiker."
+      },
+      "frostreach": {
+        "name": "Isvidderna",
+        "desc": "Isdrottningens frusna rike."
+      },
+      "starfall": {
+        "name": "Stjärnfallet",
+        "desc": "Där en stjärna föll och korrumperade allt."
+      },
+      "mistfen": {
+        "name": "Dimkärren",
+        "desc": "Giftiga kärr där pestmunkar dyrkar något som surrar i dimman."
+      },
+      "emberforge": {
+        "name": "Glödsmedjan",
+        "desc": "Dvärgarnas övergivna smedjor, där metallen själv har vaknat."
+      },
+      "stormpeaks": {
+        "name": "Åskfjällen",
+        "desc": "Isiga toppar där åskan aldrig tystnar."
+      },
+      "drownedcoast": {
+        "name": "Sjunkna Kusten",
+        "desc": "En kust där de drunknade vägrar ligga stilla."
+      },
+      "cathedral": {
+        "name": "Den Tysta Katedralen",
+        "desc": "Helgedomen där varje namn har raderats."
+      }
+    }
+  },
+  "dungeon": {
+    "title": "Välj nivå",
+    "stage": "Nivå {{n}}",
+    "boss": "BOSS",
+    "normal": "Normal",
+    "hard": "Svår",
+    "energy_cost": "{{n}} energi",
+    "recommended": "Rek. styrka {{n}}",
+    "enemies": "Fiender",
+    "rewards": "Belöningar",
+    "possible_drops": "Möjliga drops",
+    "first_clear": "Första klarningen",
+    "start": "Starta strid",
+    "locked": "Nivån är låst",
+    "hard_locked": "Klara regionen på Normal först",
+    "no_energy": "Inte tillräckligt med energi",
+    "no_formation": "Du behöver minst en hjälte i laget",
+    "your_team": "Ditt lag",
+    "edit_team": "Ändra lag",
+    "stages": {
+      "norsheim_1": { "name": "Skuggig Vargskog" },
+      "norsheim_2": { "name": "Spindelnätsdungen" },
+      "norsheim_3": { "name": "Benvit Korsning" },
+      "norsheim_4": { "name": "Giftiga Svampmarker" },
+      "norsheim_5": { "name": "Jättens Fördärvade Ruin" },
+      "eldria_1": { "name": "Rykande Askslätter" },
+      "eldria_2": { "name": "Drakkins Lavarygg" },
+      "eldria_3": { "name": "Järnsmidd Krater" },
+      "eldria_4": { "name": "Drakkinstammens Bastion" },
+      "eldria_5": { "name": "Den Svarta Drakungens Bo" },
+      "shadowmarsh_1": { "name": "Sjunkna Gravträsket" },
+      "shadowmarsh_2": { "name": "Banshees Dimmiga Kärr" },
+      "shadowmarsh_3": { "name": "Svarta Riddarens Vägbank" },
+      "shadowmarsh_4": { "name": "Nekromantens Förbannade Hage" },
+      "shadowmarsh_5": { "name": "Lichens Gravkammare" },
+      "frostreach_1": { "name": "Rimfrostens Tundra" },
+      "frostreach_2": { "name": "Stormkristallens Ödemark" },
+      "frostreach_3": { "name": "Vampyrens Frusna Håla" },
+      "frostreach_4": { "name": "Järnglaciärens Bastion" },
+      "frostreach_5": { "name": "Isdrottningens Tronsal" },
+      "starfall_1": { "name": "Själslukarens Ödemark" },
+      "starfall_2": { "name": "Det Korrupta Trädriket" },
+      "starfall_3": { "name": "Spegelväktarens Sanktum" },
+      "starfall_4": { "name": "Tidsvridna Sprickan" },
+      "starfall_5": { "name": "Den Fallna Stjärnans Krater" },
+      "mistfen_1": {
+        "name": "Rötvattnets Strand"
+      },
+      "mistfen_2": {
+        "name": "Dimslöjans Vassar"
+      },
+      "mistfen_3": {
+        "name": "Silkesmatronans Näste"
+      },
+      "mistfen_4": {
+        "name": "Kärrhäxans Stuga"
+      },
+      "mistfen_5": {
+        "name": "Pestmalens Kokong"
+      },
+      "emberforge_1": {
+        "name": "Askportarna"
+      },
+      "emberforge_2": {
+        "name": "Rostgångarna"
+      },
+      "emberforge_3": {
+        "name": "Magmahallen"
+      },
+      "emberforge_4": {
+        "name": "Tyrannens Ässja"
+      },
+      "emberforge_5": {
+        "name": "Slaggkungens Tron"
+      },
+      "stormpeaks_1": {
+        "name": "Vargpasset"
+      },
+      "stormpeaks_2": {
+        "name": "Harpyklipporna"
+      },
+      "stormpeaks_3": {
+        "name": "Blekhjortens Glänta"
+      },
+      "stormpeaks_4": {
+        "name": "Kolossens Glaciär"
+      },
+      "stormpeaks_5": {
+        "name": "Åskjarlens Höga Säte"
+      },
+      "drownedcoast_1": {
+        "name": "Benstranden"
+      },
+      "drownedcoast_2": {
+        "name": "Korallrevet"
+      },
+      "drownedcoast_3": {
+        "name": "Klagosångens Grotta"
+      },
+      "drownedcoast_4": {
+        "name": "Amiralens Vrak"
+      },
+      "drownedcoast_5": {
+        "name": "Krakenmoderns Djup"
+      },
+      "cathedral_1": {
+        "name": "Lyktgången"
+      },
+      "cathedral_2": {
+        "name": "Glasfönstrens Skepp"
+      },
+      "cathedral_3": {
+        "name": "Edbrytarens Altare"
+      },
+      "cathedral_4": {
+        "name": "Förmörkelsens Kupol"
+      },
+      "cathedral_5": {
+        "name": "Det Ihåliga Helgonets Kor"
+      }
+    }
+  },
+  "combat": {
+    "start_battle": "Starta strid",
+    "victory": "Seger!",
+    "defeat": "Nederlag",
+    "your_turn": "Din tur",
+    "enemy_turn": "Fiendens tur",
+    "damage": "{{value}} skada",
+    "critical": "Kritisk träff!",
+    "reward_gold": "+{{amount}} guld",
+    "auto": "Auto",
+    "speed": "x{{n}}",
+    "retreat": "Fly",
+    "round": "Runda {{n}}",
+    "choose_target": "Välj mål",
+    "skip": "Hoppar över",
+    "charmed": "Charmad!",
+    "immune": "Immun",
+    "resist": "Motstår",
+    "dodge": "Undvek",
+    "revived": "Återuppstod!",
+    "summoned": "Framkallad",
+    "rewards": "Belöningar",
+    "hero_xp": "Hjälte-XP",
+    "first_clear_bonus": "Bonus för första klarningen!",
+    "continue": "Fortsätt",
+    "retry": "Försök igen",
+    "rank_change": "Rankpoäng {{delta}}",
+    "defeat_hint": "Uppgradera dina hjältar eller förstärk utrustningen och försök igen.",
+    "status": {
+      "shield": "Sköld",
+      "poison": "Gift",
+      "bleed": "Blödning",
+      "burn": "Brinner",
+      "atkUp": "ATK+",
+      "atkDown": "ATK-",
+      "defUp": "DEF+",
+      "defDown": "DEF-",
+      "spdDown": "SPD-",
+      "spdUp": "SPD+",
+      "stun": "Bedövad",
+      "freeze": "Frusen",
+      "stealth": "Osynlig",
+      "ccImmune": "CC-immun",
+      "debuffImmune": "Debuff-immun",
+      "lifesteal": "Lifesteal",
+      "taunt": "Hån",
+      "charm": "Charmad",
+      "magicUp": "Magi+",
+      "soulLink": "Själsband",
+      "regen": "Regen",
+      "dragonForm": "Drakform",
+      "evasion": "Undvikande",
+      "reflect": "Reflekt",
+      "reviveOnce": "Återuppstår",
+      "web": "Nät",
+      "rage": "Rage",
+      "defensiveForm": "Försvarsform",
+      "haste": "Hast"
+    }
+  },
+  "inventory": {
+    "title": "Inventarie",
+    "all": "Allt",
+    "equipment": "Utrustning",
+    "materials": "Material",
+    "empty": "Inventariet är tomt",
+    "equipped_by": "Buren av {{name}}",
+    "enhance": "Förstärk",
+    "enhance_cost": "{{gold}} guld · {{stones}} sten(ar)",
+    "sell": "Sälj",
+    "sell_price": "Sälj för {{gold}} guld",
+    "use": "Använd",
+    "equip_to": "Utrusta på",
+    "not_enough_stones": "Inte tillräckligt med förstärkningsstenar",
+    "max_enhance": "Max förstärkning",
+    "qty": "x{{n}}",
+    "set": "Set: {{name}} ({{pieces}} delar)",
+    "material_desc": {
+      "enhanceStone": "Används för att förstärka utrustning.",
+      "xpPotion": "Ger {{value}} XP till en hjälte.",
+      "skillBook": "Används för att uppgradera färdigheter.",
+      "awakenCrystal": "Krävs för stjärnuppgradering på 4+ stjärnor.",
+      "energyPotion": "Återställer {{value}} energi."
+    }
+  },
+  "quests": {
+    "title": "Uppdrag",
+    "main": "Huvud",
+    "side": "Sido",
+    "daily": "Dagliga",
+    "weekly": "Veckans",
+    "progress": "{{current}}/{{target}}",
+    "reward": "Belöning",
+    "empty": "Inga uppdrag här just nu",
+    "completed": "Klart!",
+    "objective": {
+      "winBattles": "Vinn {{count}} strider",
+      "clearStage": "Klara {{stage}}",
+      "levelHero": "Få en hjälte till nivå {{level}}",
+      "summon": "Framkalla {{count}} hjältar",
+      "enhanceEquipment": "Förstärk utrustning {{count}} gånger",
+      "spendEnergy": "Spendera {{amount}} energi",
+      "reachPlayerLevel": "Nå spelarnivå {{level}}",
+      "ownHeroes": "Äg {{count}} hjältar",
+      "arenaBattles": "Slåss {{count}} gånger i arenan",
+      "guildContribute": "Bidra till gillet {{count}} gång(er)",
+      "claimDaily": "Logga in {{count}} dag(ar)"
+    }
+  },
+  "shop": {
+    "title": "Butik",
+    "featured": "Erbjudanden",
+    "daily": "Dagligt",
+    "summon": "Framkalla",
+    "currency": "Ädelstenar",
+    "buy": "Köp",
+    "sold_out": "Slutsåld",
+    "limit": "{{n}} kvar",
+    "cannot_afford": "Du har inte råd",
+    "not_enough_gems": "Inte tillräckligt med ädelstenar",
+    "summon_1": "Framkalla x1",
+    "summon_10": "Framkalla x10",
+    "pity": "Garanterad legendarisk om {{n}}",
+    "rates": "Chanser",
+    "new_hero": "NY!",
+    "shards_gained": "+5 skärvor",
+    "summon_result": "Resultat",
+    "iap_note": "Köp med riktiga pengar aktiveras vid lansering – i dev-läge ges belöningen direkt.",
+    "offers": {
+      "starter_pack": {
+        "name": "Startpaket",
+        "desc": "Allt du behöver för att komma igång."
+      },
+      "dragon_bundle": {
+        "name": "Drakpaket",
+        "desc": "Drakglaiv + 5 uppvaknandekristaller."
+      },
+      "skill_bundle": {
+        "name": "Färdighetspaket",
+        "desc": "5 färdighetsböcker."
+      },
+      "daily_gold_s": {
+        "name": "Guldpåse",
+        "desc": "5 000 guld"
+      },
+      "daily_gold_l": {
+        "name": "Guldkista",
+        "desc": "25 000 guld"
+      },
+      "daily_energy": {
+        "name": "Energipåfyllning",
+        "desc": "+50 energi"
+      },
+      "daily_xp": {
+        "name": "XP-drycker",
+        "desc": "3 XP-drycker"
+      },
+      "daily_stone": {
+        "name": "Förstärkningsstenar",
+        "desc": "3 stenar"
+      },
+      "daily_keys": {
+        "name": "Nycklar",
+        "desc": "2 nycklar"
+      },
+      "gems_100": {
+        "name": "Handfull ädelstenar",
+        "desc": "100 ädelstenar"
+      },
+      "gems_550": {
+        "name": "Påse ädelstenar",
+        "desc": "550 ädelstenar"
+      },
+      "gems_1200": {
+        "name": "Kista ädelstenar",
+        "desc": "1 200 ädelstenar"
+      },
+      "gems_3200": {
+        "name": "Valv ädelstenar",
+        "desc": "3 200 ädelstenar"
+      },
+      "arena_shards_sylwen": {
+        "name": "Sylwen-skärvor",
+        "desc": "5 skärvor"
+      },
+      "arena_shards_ilva": {
+        "name": "Ilva-skärvor",
+        "desc": "5 skärvor"
+      },
+      "arena_crit_charm": {
+        "name": "Lyckoamulett",
+        "desc": "Sällsynt smycke"
+      },
+      "arena_stones": {
+        "name": "Förstärkningsstenar",
+        "desc": "5 stenar"
+      },
+      "guild_shards_mira": {
+        "name": "Mira-skärvor",
+        "desc": "5 skärvor"
+      },
+      "guild_shards_brann": {
+        "name": "Brann-skärvor",
+        "desc": "5 skärvor"
+      },
+      "guild_awaken": {
+        "name": "Uppvaknandekristaller",
+        "desc": "2 kristaller"
+      },
+      "guild_xp": {
+        "name": "Stor XP-dryck",
+        "desc": "5 000 XP"
+      }
+    },
+    "badge": {
+      "hot": "HET",
+      "value": "VÄRDE",
+      "new": "NY"
+    }
+  },
+  "pvp": {
+    "title": "Arena",
+    "rank": "Rank #{{n}}",
+    "points": "{{n}} poäng",
+    "attempts": "{{n}}/{{max}} strider kvar idag",
+    "no_attempts": "Inga strider kvar idag",
+    "opponents": "Motståndare",
+    "refresh": "Uppdatera",
+    "fight": "Utmana",
+    "history": "Historik",
+    "won": "Vann",
+    "lost": "Förlorade",
+    "arena_shop": "Arenabutik",
+    "power": "Styrka {{n}}"
+  },
+  "guild": {
+    "title": "Gille",
+    "join": "Gå med",
+    "create": "Skapa gille",
+    "leave": "Lämna gillet",
+    "members": "{{n}}/{{max}} medlemmar",
+    "level": "Gillenivå {{n}}",
+    "contribute": "Bidra (1 000 guld)",
+    "contributed": "Bidragit idag",
+    "contribution": "Ditt bidrag: {{n}}",
+    "guild_shop": "Gillebutik",
+    "member_list": "Medlemmar",
+    "name_placeholder": "Gillenamn",
+    "no_guild": "Du är inte med i något gille ännu.",
+    "role": {
+      "leader": "Ledare",
+      "officer": "Officer",
+      "member": "Medlem"
+    },
+    "you": "Du",
+    "created_desc": "Ditt eget gille. Bjud in vänner (kommer snart)."
+  },
+  "settings": {
+    "title": "Inställningar",
+    "language": "Språk",
+    "audio": "Ljud",
+    "music": "Musik",
+    "sfx": "Ljudeffekter",
+    "other": "Övrigt",
+    "privacy": "Integritetspolicy",
+    "terms": "Användarvillkor",
+    "logout": "Logga ut",
+    "version": "Version {{version}}",
+    "account": "Konto",
+    "player_name": "Spelarnamn",
+    "reset": "Nollställ all progress",
+    "reset_confirm": "Är du säker? All progress raderas.",
+    "reset_done": "Progressen har nollställts"
+  },
+  "profile": {
+    "title": "Profil",
+    "stats": "Statistik",
+    "battles_won": "Vunna strider",
+    "battles_lost": "Förlorade strider",
+    "summons": "Framkallningar",
+    "enhances": "Förstärkningar",
+    "arena_wins": "Arenavinster",
+    "heroes_owned": "Hjältar",
+    "total_stars": "Stjärnor",
+    "team_power": "Lagstyrka",
+    "avatar": "Välj avatar",
+    "member_since": "Medlem sedan {{date}}",
+    "login_streak": "Inloggningsserie: {{n}} dagar",
+    "xp_to_next": "{{current}}/{{needed}} XP"
+  },
+  "mail": {
+    "title": "Post",
+    "empty": "Inbox är tom",
+    "delete": "Radera",
+    "welcome_title": "Välkommen till Heroes of Eldria!",
+    "welcome_body": "Tack för att du spelar. Här är en liten gåva för att komma igång.",
+    "login_title": "Daglig inloggning – dag {{day}}",
+    "login_body": "Din dagliga inloggningsbelöning. Kom tillbaka imorgon för mer!"
+  },
+  "formation": {
+    "title": "Lag",
+    "slot": "Plats {{n}}",
+    "choose_hero": "Välj hjälte",
+    "remove": "Ta bort",
+    "power": "Total styrka: {{n}}",
+    "hint": "Välj upp till 5 hjältar. Turordning avgörs av SPD."
+  }
+}

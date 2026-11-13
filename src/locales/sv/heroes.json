@@ -1,0 +1,854 @@
+{
+  "title": "Hjältar",
+  "owned": "Ägda",
+  "all": "Alla",
+  "details": "Detaljer",
+  "upgrade": "Uppgradera",
+  "skills_title": "Färdigheter",
+  "equipment": "Utrustning",
+  "level_up": "Nivå upp",
+  "level_up_cost": "{{gold}} guld",
+  "use_potion": "Använd {{name}}",
+  "star_up": "Stjärna upp",
+  "star_up_cost": "{{shards}} skärvor · {{gold}} guld",
+  "star_up_crystals": "+ {{n}} uppvaknandekristaller",
+  "shards_owned": "{{n}} skärvor",
+  "skill_level": "Nivå {{level}}",
+  "skill_upgrade_cost": "{{gold}} guld · {{books}} bok/böcker",
+  "skill_kind": { "basic": "Bas", "skill": "Förmåga", "ultimate": "Ultimat" },
+  "cooldown": "Nedkylning: {{n}}",
+  "not_owned": "Ej ägd – hämta skärvor från äventyr och butik",
+  "not_enough_shards": "Inte tillräckligt med skärvor",
+  "not_enough_crystals": "Inte tillräckligt med uppvaknandekristaller",
+  "not_enough_books": "Inte tillräckligt med färdighetsböcker",
+  "empty_slot": "Tom plats",
+  "choose_item": "Välj utrustning",
+  "unequip": "Ta av",
+  "set_bonus": "Set-bonus",
+  "in_formation": "I laget",
+  "recruit_hint": "Framkalla i butiken för att få nya hjältar.",
+  "arthen": {
+    "name": "Arthen",
+    "title": "Helig Riddare",
+    "class": "Paladin",
+    "desc": "En orubblig riddare som skyddar sina allierade med heligt ljus.",
+    "lore": [
+      "Arthen föddes i Norsheims gränsby Hallvard, son till en byasmed som smidde plogar om dagen och svärd om natten. När skuggvargarna för första gången bröt igenom palissaden var han fjorton år och höll sin fars hammare i händerna. Han överlevde. Byn gjorde det inte.",
+      "Ljusets Orden fann honom bland askan och tog honom till klostret i Silverhöjd. Där lärde han sig att en sköld är värd mer än tio svärd, och att det heliga ljuset inte brinner för den som slår hårdast utan för den som står kvar när alla andra flyr. Vid tjugofem års ålder vigdes han till riddare och fick den blå manteln – Ordens tecken för dem som svurit att aldrig ta ett steg tillbaka.",
+      "När Den Fallne Stjärnan störtade över Stjärnfallet och skuggorna började vakna i alla fem regioner, var Arthen den förste som red ut. Han säger inte mycket om varför. Men de som slåss vid hans sida vet att han fortfarande bär en förkolnad plogbill i bältet."
+    ]
+  },
+  "lyra": {
+    "name": "Lyra Vågsång",
+    "title": "Elementmagiker",
+    "class": "Elementalist",
+    "desc": "Behärskar is och blixt och sveper fienderna av fältet.",
+    "lore": [
+      "Vågsång-släkten har i generationer hållit fyrarna längs Isviddernas kust, där vinterstormarna kommer in från havet med blixt och is i samma andetag. Lyra växte upp med händerna på fyrens kristall och lärde sig tidigt att lyssna på stormen i stället för att frukta den.",
+      "Elementalisternas Akademi i Eldria antog henne som yngsta elev någonsin. Där kallade de henne \"Frostbarnet\" – tills hon på sin första duell kedjade en blixt genom tre motståndare på en gång och akademin fick byta ut hälften av sina golvplattor. Lärarna slutade skratta. Hon slutade aldrig träna.",
+      "Lyra slåss inte för ära. Hon slåss för att ta reda på vad som fick isen på Isvidderna att börja sjunga med en ny röst – en röst som kommer från Isdrottningens palats och som hennes mors fyrkristall nu vägrar att lysa mot."
+    ]
+  },
+  "kael": {
+    "name": "Kael Drakensson",
+    "title": "Drakkrigare",
+    "class": "Dragon Knight",
+    "desc": "Bär drakblod i sina ådror och kan förvandlas till en drake.",
+    "lore": [
+      "I Eldrias vulkaniska dalar berättas det om drakryttarna, klanen som en gång red på svarta drakar och höll berget i schack. Klanen är borta. Drakarna är borta. Kael Drakensson är den siste som bär deras blod – och blodet har inte glömt.",
+      "Som barn feberdrömde han om eld. Som yngling vaknade han med brännmärken på händerna utan att ha rört någon låga. Klanens sista äldste gav honom Glödsvärdet och ett enda råd: \"Draken i dig vill ut. Bestäm själv när.\" Kael har tillbringat resten av sitt liv med att lära sig bestämma.",
+      "Han tog värvning som legosoldat, sedan som gränsvakt, sedan som ingenting alls. När Drakungen i Eldria började bränna byar sökte han upp Arthen och Lyra självmant. Inte för att rädda någon, säger han, utan för att se om det finns någon flamma där ute som är hetare än hans egen."
+    ]
+  },
+  "sylwen": {
+    "name": "Sylwen Nattblad",
+    "title": "Skuggassassin",
+    "class": "Shadowblade",
+    "desc": "Slår till från skuggorna med dödligt gift.",
+    "lore": [
+      "Skuggmarkernas mörkalver har alltid levt i skymningen mellan människornas riken och det som väntar under jorden. Sylwen Nattblad föddes i Viskande Salarna, alvernas dolda stad, och tränades från fem års ålder av Nattens Gille – lönnmördare som säljer sina tjänster till den som betalar i tystnad.",
+      "Hennes första uppdrag var att döda en nekromantiker som hade börjat väcka Skuggmarkernas döda. Hon lyckades. Men det hon såg i hans laboratorium – Lichens sigill inristat i varje skalle – fick henne att bryta Gillets viktigaste regel: hon berättade för utomstående.",
+      "Nu är hon fredlös bland sitt eget folk och jagad av sina forna lärare. Sylwen bryr sig inte. Giftet på hennes blad är destillerat ur Kristallspindlarnas nät, och hon har ett namn kvar på sin lista: Lichen själv."
+    ]
+  },
+  "thora": {
+    "name": "Thora Järnhand",
+    "title": "Berserker",
+    "class": "Barbar",
+    "desc": "Ju mer hon blöder, desto hårdare slår hon.",
+    "lore": [
+      "Thora Järnhand kommer från Norsheims norra stenklan, där barn lär sig hugga ved innan de lär sig läsa och där en kvinna får sitt namn först när hon fällt sitt första vildsvin ensam. Thora fällde en björn. Hon var elva.",
+      "Handen fick hon när Stenknallarna vaknade i klanens gruvor. Hon höll upp en rasande stengång med bara kroppen så att gruvarbetarna kunde ta sig ut – och förlorade tre fingrar och halva underarmen i processen. Klanens smed gjorde henne ett nytt grepp av järn. Hon bad honom göra det tyngre.",
+      "Hon slåss bäst när hon blöder. Läkarna kallar det raseri; Thora kallar det att äntligen vara vaken. När Äldre Stenjätten reste sig ur ruinerna i Norsheim var hon den enda som skrattade."
+    ]
+  },
+  "elarion": {
+    "name": "Elarion Stjärnvävare",
+    "title": "Stjärnpräst",
+    "class": "Astral Priest",
+    "desc": "Kanaliserar kosmos för att hela och skydda laget.",
+    "lore": [
+      "Ingen vet var Elarion Stjärnvävare föddes. Han själv säger att han vaknade en natt på Stjärnfallets högsta klippa med stjärnhimlen speglad i ögonen och ett namn han inte valt själv på läpparna. Astralprästerna i Kosmostemplet tog emot honom som ett tecken.",
+      "I trettio år studerade han stjärnornas band – de osynliga trådar som binder allt levande till varandra och till himlen. Han lärde sig att låna kraft från en själ för att hela en annan, och att fläta samman två liv så att ingen av dem behöver bära sin smärta ensam.",
+      "Sedan föll stjärnan. Elarion var där. Han såg ljuset slita sig loss från himlen, brytas mot marken och resa sig igen som något halvt heligt, halvt skugga. Han har inte sovit ordentligt sedan dess. Han säger att Den Fallne Stjärnan känner igen honom – och att den kallar honom bror."
+    ]
+  },
+  "brann": {
+    "name": "Brann Eldsmed",
+    "title": "Pyromant",
+    "class": "Eldmagiker",
+    "desc": "En hetlevrad magiker som bränner allt i sin väg.",
+    "lore": [
+      "Brann Eldsmed var smedlärling i Eldrias huvudstad Glödborg tills den dag han av misstag satte eld på en ässja som redan brann. Lågan svarade honom. Mästersmeden kastade ut honom på gatan samma kväll – man kan inte ha en lärling som argumenterar med elden.",
+      "Pyromanternas skrå tog emot honom, mest för att ingen annan ville. De lärde honom disciplin. Han lärde dem att smedsförklädet skyddar bättre mot gnistor än någon magikerrock, och att en eldsfär gör mer skada om man först har värmt upp den i handflatan i tio sekunder.",
+      "Brann är kaxig, högljudd och vägrar erkänna när han har fel. Men Eldsalamandrarna i Eldria fruktar honom mer än någon annan, för han är den ende som lärt sig att bränna det som redan är gjort av eld."
+    ]
+  },
+  "ilva": {
+    "name": "Ilva Skogsvakt",
+    "title": "Skogsjägare",
+    "class": "Ranger",
+    "desc": "Träffsäker bågskytt med förgiftade pilar.",
+    "lore": [
+      "Skogsvakterna i Norsheim är inte soldater. De är de som går ut i skogen när ingen annan vågar, som räknar vargspåren och ser till att vägarna mellan byarna förblir öppna. Ilva Skogsvakt är tredje generationens vakt och den första som kommit tillbaka från Körsbärslunden med förståndet i behåll.",
+      "Där mötte hon den korrupta anden som charmade hennes två bröder in i dimman. Hon fick ärret över ögonbrynet den natten – och giftet som hon numera doppar sina pilspetsar i. Det är destillerat ur samma blommor som tog hennes bröder. Hon kallar det rättvisa.",
+      "Ilva pratar sällan och skjuter aldrig två gånger på samma mål. När Skuggornas Uppvaknande drog över Norsheim var det hennes rapport som fick Ljusets Orden att skicka Arthen. Hon var redan där när han kom."
+    ]
+  },
+  "grimvald": {
+    "name": "Grimvald Benstav",
+    "title": "Dödsbesvärjare",
+    "class": "Nekromantiker",
+    "desc": "Suger livskraft ur sina fiender.",
+    "lore": [
+      "Grimvald Benstav var en gång Skuggmarkernas mest respekterade läkare. Han satt vid sängen hos hundratals döende och lärde sig känna igen ögonblicket när livet lämnar en kropp – och han bestämde sig för att det ögonblicket borde kunna skjutas upp.",
+      "Studierna tog honom in i förbjudna arkiv och ut på andra sidan som något annat. Han kan suga livskraft ur en fiende och ge den till sig själv. Han kan förbanna en man så att hans egen rustning tycks tyngre än berget. Han sover inte längre, och han pratar med en benstav som svarar.",
+      "Men Grimvald har aldrig väckt en död. Det är gränsen han vägrar korsa – och skälet till att han hatar Lichen mer än någon levande. \"Han tog min vetenskap\", säger Grimvald, \"och gjorde den till ett skämt.\" Han slåss med hjältarna för att bevisa att mörkret kan användas utan att man blir det."
+    ]
+  },
+  "mira": {
+    "name": "Mira Ljusdotter",
+    "title": "Tempelsyster",
+    "class": "Präst",
+    "desc": "En ödmjuk helare med stort hjärta.",
+    "lore": [
+      "Mira Ljusdotter är hittebarn, uppfostrad av tempelsystrarna i Silverhöjd – samma kloster där Arthen fick sin mantel. Hon var barnet som smög in i sjukstugan om nätterna för att hålla de sjuka i handen, långt innan någon lärde henne en enda bön.",
+      "Systrarna upptäckte hennes gåva när en soldat med ett dödligt sår vaknade upp helad efter att Mira sovit vid hans säng. Hon var nio. Hon grät i tre dagar för att hon inte förstod vad hon gjort. Sedan bad hon att få lära sig göra det igen.",
+      "Hon bär solklubban motvilligt – \"den är för att jag ska kunna nå fram till dem som behöver mig\", säger hon – och har aldrig slagit någon som inte försökte döda en av hennes vänner först. Det har hänt oftare än hon vill erkänna."
+    ]
+  },
+  "skills": {
+    "arthen_holy_strike": {
+      "name": "Helig Hugg",
+      "desc": "Fysisk skada och ger Arthen en sköld."
+    },
+    "arthen_protective_light": {
+      "name": "Skyddande Ljus",
+      "desc": "Ger hela laget en sköld i 2 rundor."
+    },
+    "arthen_hammer": {
+      "name": "Domens Hammare",
+      "desc": "Kraftfull attack. Extra skada mot odöda och demoner."
+    },
+    "arthen_holy_aura": {
+      "name": "Helig Aura",
+      "desc": "Helar hela laget och tar bort 1 debuff från alla allierade."
+    },
+    "lyra_frostbolt": {
+      "name": "Frostbolt",
+      "desc": "Magisk attack som även sänker fiendens Speed."
+    },
+    "lyra_chain_lightning": {
+      "name": "Kedjeblixt",
+      "desc": "Träffar huvudmålet och hoppar vidare till upp till 2 extra fiender."
+    },
+    "lyra_ice_prison": {
+      "name": "Isfängelse",
+      "desc": "Fryser en fiende i 1 runda."
+    },
+    "lyra_meteor": {
+      "name": "Meteorregn",
+      "desc": "Massiv AoE-skada mot alla fiender."
+    },
+    "kael_dragon_fangs": {
+      "name": "Draktänder",
+      "desc": "Snabb fysisk attack som applicerar blödning."
+    },
+    "kael_dragon_rage": {
+      "name": "Drakens Raseri",
+      "desc": "Ökar egen ATK kraftigt i 3 rundor."
+    },
+    "kael_fire_breath": {
+      "name": "Eldandning",
+      "desc": "Konisk eldattack som träffar flera fiender."
+    },
+    "kael_dragon_form": {
+      "name": "Drakform",
+      "desc": "Förvandlas till drake i 2 rundor: massiv ATK-ökning och immunitet mot crowd control."
+    },
+    "sylwen_shadow_strike": {
+      "name": "Skugghugg",
+      "desc": "Alltid kritisk träff om målet har en debuff."
+    },
+    "sylwen_poison_blade": {
+      "name": "Giftblad",
+      "desc": "Applicerar starkt gift som tickar i 3 rundor."
+    },
+    "sylwen_vanish": {
+      "name": "Försvinnande",
+      "desc": "Blir osynlig i 1 runda. Nästa attack gör kraftigt ökad skada."
+    },
+    "sylwen_death_dance": {
+      "name": "Dödens Dans",
+      "desc": "Attackerar alla fiender med hög krit-chans."
+    },
+    "thora_wild_strike": {
+      "name": "Vildhugg",
+      "desc": "Grundattack som genererar Rage (+ATK)."
+    },
+    "thora_bloodthirst": {
+      "name": "Blodtörst",
+      "desc": "Ju lägre HP Thora har, desto mer skada gör hon."
+    },
+    "thora_earthquake": {
+      "name": "Jordskalv",
+      "desc": "AoE-skada + sänker fiendernas ATK."
+    },
+    "thora_berserker_rage": {
+      "name": "Berserker-raseri",
+      "desc": "Immunitet mot crowd control + lifesteal i 3 rundor."
+    },
+    "elarion_starlight": {
+      "name": "Stjärnljus",
+      "desc": "Skadar en fiende och helar den mest skadade allierade."
+    },
+    "elarion_cosmic_shield": {
+      "name": "Kosmiskt Skydd",
+      "desc": "Ger en allierad immunitet mot nästa debuff och en sköld."
+    },
+    "elarion_soul_bond": {
+      "name": "Själsband",
+      "desc": "Länkar två allierade så att skada delas mellan dem."
+    },
+    "elarion_supernova": {
+      "name": "Supernova",
+      "desc": "Stor heal på hela laget + ökar deras magiska skada i 2 rundor."
+    },
+    "brann_fireball": {
+      "name": "Eldklot",
+      "desc": "Eldskada som får målet att brinna."
+    },
+    "brann_flame_wave": {
+      "name": "Flamvåg",
+      "desc": "Eldskada mot alla fiender."
+    },
+    "brann_ignite": {
+      "name": "Antänd",
+      "desc": "Kraftig eldattack som ignorerar en del rustning."
+    },
+    "brann_inferno": {
+      "name": "Inferno",
+      "desc": "Bränner alla fiender i 3 rundor."
+    },
+    "ilva_arrow": {
+      "name": "Pilskott",
+      "desc": "Ett välriktat skott."
+    },
+    "ilva_volley": {
+      "name": "Pilregn",
+      "desc": "Skjuter 3 pilar mot slumpmässiga fiender."
+    },
+    "ilva_mark": {
+      "name": "Jägarmärke",
+      "desc": "Sänker målets DEF i 3 rundor."
+    },
+    "ilva_arrow_rain": {
+      "name": "Giftstorm",
+      "desc": "Förgiftade pilar mot alla fiender."
+    },
+    "grimvald_soul_bolt": {
+      "name": "Själsblixt",
+      "desc": "Skadar och helar Grimvald en del av skadan."
+    },
+    "grimvald_curse": {
+      "name": "Förbannelse",
+      "desc": "Sänker målets ATK och DEF."
+    },
+    "grimvald_drain": {
+      "name": "Livssug",
+      "desc": "Suger livskraft ur fienden."
+    },
+    "grimvald_harvest": {
+      "name": "Själaskörd",
+      "desc": "Skadar och förgiftar alla fiender."
+    },
+    "mira_smite": {
+      "name": "Ljusstöt",
+      "desc": "Helig skada mot en fiende."
+    },
+    "mira_mend": {
+      "name": "Läkning",
+      "desc": "Helar den mest skadade allierade."
+    },
+    "mira_blessing": {
+      "name": "Välsignelse",
+      "desc": "Ökar hela lagets DEF i 2 rundor."
+    },
+    "mira_holy_light": {
+      "name": "Heligt Ljus",
+      "desc": "Helar hela laget och tar bort 1 debuff."
+    },
+    "vesna_chaos_bolt": {
+      "name": "Kaosblixt",
+      "desc": "Skuggskada med 50% chans att sänka målets ATK."
+    },
+    "vesna_chaos_rite": {
+      "name": "Kaosrit",
+      "desc": "Offrar 15% av egen HP. Hela laget får +25% ATK och +25% magisk skada i 2 rundor."
+    },
+    "vesna_entropy": {
+      "name": "Entropi",
+      "desc": "70% chans att sänka DEF och SPD på alla fiender i 2 rundor."
+    },
+    "vesna_chaos_storm": {
+      "name": "Kaosstorm",
+      "desc": "Massiv skuggskada mot alla fiender. Varje fiende kan börja brinna och/eller förgiftas."
+    },
+    "nera_feather_dance": {
+      "name": "Fjäderdans",
+      "desc": "Två snabba hugg i en virvlande rörelse."
+    },
+    "nera_pirouette": {
+      "name": "Piruett",
+      "desc": "50% chans att undvika attacker och +20% SPD i 2 rundor."
+    },
+    "nera_knife_rain": {
+      "name": "Knivregn",
+      "desc": "Kastar 4 knivar mot slumpmässiga fiender som orsakar blödning."
+    },
+    "nera_death_waltz": {
+      "name": "Dödsvals",
+      "desc": "Dansar genom alla fiender med hög krit-chans och orsakar blödning."
+    },
+    "yuki_frost_bell": {
+      "name": "Frostbjällra",
+      "desc": "Isskada som sänker målets SPD i 1 runda."
+    },
+    "yuki_frost_veil": {
+      "name": "Frostslöja",
+      "desc": "Ger hela laget en sköld av is i 2 rundor."
+    },
+    "yuki_hoarfrost_prayer": {
+      "name": "Rimfrostbön",
+      "desc": "Helar den allierade med lägst HP och ger regeneration i 2 rundor."
+    },
+    "yuki_winter_stillness": {
+      "name": "Vinterstillhet",
+      "desc": "Isskada på alla fiender med 50% chans att frysa dem i 1 runda."
+    },
+    "lumi_sharp_note": {
+      "name": "Skarp Ton",
+      "desc": "En gäll ton som gör helig skada."
+    },
+    "lumi_battle_hymn": {
+      "name": "Stridshymn",
+      "desc": "+20% ATK och +15% SPD för hela laget i 2 rundor."
+    },
+    "lumi_lullaby": {
+      "name": "Vaggvisa",
+      "desc": "60% chans att söva en fiende i 1 runda."
+    },
+    "lumi_encore": {
+      "name": "Extranummer",
+      "desc": "Helar hela laget och ger +20% magisk skada i 2 rundor."
+    },
+    "saga_moon_cut": {
+      "name": "Månskärshugg",
+      "desc": "Snabbt hugg med förhöjd krit-chans."
+    },
+    "saga_pickpocket": {
+      "name": "Ficktjuv",
+      "desc": "Stjäl 20% ATK från målet i 2 rundor."
+    },
+    "saga_smoke_bomb": {
+      "name": "Rökbomb",
+      "desc": "40% chans att undvika attacker och +20% SPD i 2 rundor."
+    },
+    "saga_moonlight_heist": {
+      "name": "Månljuskupp",
+      "desc": "Kraftfullt hugg som ignorerar 30% DEF. Kritar alltid mot försvagade mål."
+    },
+    "vilja_thorn_lash": {
+      "name": "Törnpiska",
+      "desc": "Skada från törnen som orsakar blödning i 2 rundor."
+    },
+    "vilja_bloom": {
+      "name": "Blomning",
+      "desc": "Helar den allierade med lägst HP och ger regeneration i 3 rundor."
+    },
+    "vilja_entangle": {
+      "name": "Rotsnärja",
+      "desc": "50% chans att snärja varje fiende i 1 runda. Sänker allas SPD i 2 rundor."
+    },
+    "vilja_heart_of_the_forest": {
+      "name": "Skogens Hjärta",
+      "desc": "Helar hela laget och ger +25% DEF i 2 rundor."
+    },
+    "freja_shield_bash": {
+      "name": "Sköldstöt",
+      "desc": "Blixtskada med 20% chans att bedöva målet."
+    },
+    "freja_storm_wall": {
+      "name": "Stormmur",
+      "desc": "Provocerar alla fiender och ger +30% DEF i 2 rundor."
+    },
+    "freja_thunderclap": {
+      "name": "Åskknall",
+      "desc": "Blixtskada på alla fiender som sänker deras SPD i 2 rundor."
+    },
+    "freja_bastion_of_storms": {
+      "name": "Stormbastion",
+      "desc": "Ger hela laget en sköld i 2 rundor. Freja reflekterar 25% av skadan hon tar."
+    },
+    "nova_volatile_flask": {
+      "name": "Flyktig Flaska",
+      "desc": "Astral skada med 50% chans att antända målet."
+    },
+    "nova_catalyst": {
+      "name": "Katalysator",
+      "desc": "+25% magisk skada för hela laget och tar bort 1 debuff från alla allierade."
+    },
+    "nova_acid_splash": {
+      "name": "Syrastänk",
+      "desc": "Fräter ner alla fienders rustning: -20% DEF i 2 rundor."
+    },
+    "nova_starfall_reaction": {
+      "name": "Stjärnfallsreaktion",
+      "desc": "Explosiv astral skada på alla fiender som förgiftar dem i 2 rundor."
+    },
+    "hilda_rune_hammer": {
+      "name": "Runhammare",
+      "desc": "Fysisk skada med 30% chans att sänka målets DEF med 15% i 2 rundor."
+    },
+    "hilda_stone_rune": {
+      "name": "Stenruna",
+      "desc": "Ristar en runa i sin egen rustning: sköld och +25% ATK i 2 rundor."
+    },
+    "hilda_earthshaker": {
+      "name": "Jordskalv",
+      "desc": "Jordskada på alla fiender med 25% chans att bedöva varje fiende."
+    },
+    "hilda_forgefire_awakening": {
+      "name": "Ässjans Uppvaknande",
+      "desc": "Massivt slag som ignorerar 40% av rustningen. Hela laget får +20% DEF i 2 rundor."
+    },
+    "tyra_thunder_palm": {
+      "name": "Åskhand",
+      "desc": "Blixtskada med öppen handflata och 15% chans att bedöva målet."
+    },
+    "tyra_flowing_step": {
+      "name": "Flödande Steg",
+      "desc": "Provocerar alla fiender och ger +35% undanmanöver i 2 rundor."
+    },
+    "tyra_hundred_strikes": {
+      "name": "Hundra Slag",
+      "desc": "4 blixtsnabba slag mot slumpmässiga fiender."
+    },
+    "tyra_heaven_splitter": {
+      "name": "Himlaklyvaren",
+      "desc": "Kraftfullt slag med +25% kritchans och 50% chans att bedöva. Tyra får +30% SPD i 2 rundor."
+    },
+    "solveig_spark_arrow": {
+      "name": "Gnistpil",
+      "desc": "Blixtskada med 30% chans att sänka målets SPD i 1 runda."
+    },
+    "solveig_forked_arrow": {
+      "name": "Klövad Pil",
+      "desc": "En pil som studsar mellan fiender och hoppar till 3 nya mål."
+    },
+    "solveig_storm_mark": {
+      "name": "Stormmärke",
+      "desc": "Skjuter den svagaste fienden, ignorerar 30% av rustningen och sänker DEF med 20% i 2 rundor."
+    },
+    "solveig_thunderstorm": {
+      "name": "Åskväder",
+      "desc": "6 blixtpilar mot slumpmässiga fiender med 20% chans att bedöva varje träff."
+    },
+    "linnea_lunge": {
+      "name": "Utfall",
+      "desc": "Snabb stöt med +10% kritchans."
+    },
+    "linnea_riposte": {
+      "name": "Riposte",
+      "desc": "Intar garde: reflekterar 30% av skadan och får +25% undanmanöver i 2 rundor."
+    },
+    "linnea_disarm": {
+      "name": "Avväpna",
+      "desc": "Slår vapnet ur fiendens hand: skada och -30% ATK i 2 rundor."
+    },
+    "linnea_final_flourish": {
+      "name": "Sista Stöten",
+      "desc": "Elegant avslutning som ignorerar 25% av rustningen. Garanterad krit mot försvagade mål."
+    },
+    "runa_spear_thrust": {
+      "name": "Spjutstöt",
+      "desc": "Rak stöt med spjutet som ignorerar 15% av rustningen."
+    },
+    "runa_hold_the_line": {
+      "name": "Håll Linjen",
+      "desc": "Sätter ner spjutet i marken: hånar fienderna och får +35% DEF i 2 rundor."
+    },
+    "runa_sweeping_spear": {
+      "name": "Svepande Spjut",
+      "desc": "Bred svepning som träffar alla fiender och sänker deras SPD med 20% i 2 rundor."
+    },
+    "runa_last_bulwark": {
+      "name": "Sista Bålverket",
+      "desc": "Ger hela laget en sköld och +20% DEF i 2 rundor."
+    },
+    "sable_hunting_spear": {
+      "name": "Jaktspjut",
+      "desc": "Snabbt stick med 30% chans att orsaka blödning."
+    },
+    "sable_wolf_pack": {
+      "name": "Vargflocken",
+      "desc": "Flocken anfaller 4 slumpmässiga fiender och får dem att blöda i 2 rundor."
+    },
+    "sable_call_of_the_wild": {
+      "name": "Vildmarkens Rop",
+      "desc": "Hela laget får +20% ATK och +15% SPD i 2 rundor."
+    },
+    "sable_alpha_hunt": {
+      "name": "Alfajakten",
+      "desc": "Hela flocken kastar sig över den svagaste fienden. Garanterad krit mot försvagade mål och kraftig blödning i 3 rundor."
+    },
+    "kaida_runic_edge": {
+      "name": "Runegg",
+      "desc": "Hugg med den glödande runeggen med +10% kritchans."
+    },
+    "kaida_sun_sigil": {
+      "name": "Solsigill",
+      "desc": "Ritar ett sigill av ljus: sköld och +30% magisk kraft i 2 rundor."
+    },
+    "kaida_radiant_arc": {
+      "name": "Strålande Båge",
+      "desc": "En båge av solljus som träffar alla fiender och sänker DEF med 20% i 2 rundor."
+    },
+    "kaida_solar_judgment": {
+      "name": "Soldomen",
+      "desc": "Klingan fylls av solnedgången: massiv skada som ignorerar 35% av rustningen (+30% mot odöda och demoner) och läker Kaida."
+    },
+    "petra_stone_shard": {
+      "name": "Stenskärva",
+      "desc": "Kastar en vass skärva av sten."
+    },
+    "petra_tremor": {
+      "name": "Skalv",
+      "desc": "Får marken att skälva under alla fiender, med 20% chans att bedöva."
+    },
+    "petra_stoneskin": {
+      "name": "Stenhud",
+      "desc": "Hela laget får +30% DEF i 2 rundor."
+    },
+    "petra_landslide": {
+      "name": "Jordskred",
+      "desc": "Ett jordskred begraver alla fiender och sänker deras SPD med 25% i 2 rundor."
+    },
+    "nyxara_blood_lance": {
+      "name": "Blodlans",
+      "desc": "En lans av stelnat blod som stjäl liv från målet."
+    },
+    "nyxara_bloodletting": {
+      "name": "Åderlåtning",
+      "desc": "Offrar 10% av sin max-HP för +40% magisk kraft i 2 rundor."
+    },
+    "nyxara_hemorrhage": {
+      "name": "Blodstörtning",
+      "desc": "Öppnar sår på alla fiender som blöder i 3 rundor."
+    },
+    "nyxara_crimson_rite": {
+      "name": "Karmosinriten",
+      "desc": "Skadar alla fiender, +10% skada per försvagning på fienderna, och stjäl liv."
+    },
+    "berit_axe_chop": {
+      "name": "Yxhugg",
+      "desc": "Tungt hugg med 30% chans att sänka fiendens ATK med 15%."
+    },
+    "berit_bear_roar": {
+      "name": "Björnvrål",
+      "desc": "Vrålar som en björn: hånar fienderna och får +40% DEF i 2 rundor."
+    },
+    "berit_shield_slam": {
+      "name": "Sköldsmäll",
+      "desc": "Slår tornskölden i fienden med 35% chans att bedöva."
+    },
+    "berit_den_mother": {
+      "name": "Idemor",
+      "desc": "Ställer sig framför laget: sköld och läkning varje runda för alla, och drar fiendernas vrede till sig."
+    },
+    "aelin_gale_thrust": {
+      "name": "Vindstöt",
+      "desc": "Snabb lansstöt som ger Aelin +10% SPD."
+    },
+    "aelin_skyward_leap": {
+      "name": "Himmelssprång",
+      "desc": "Hoppar upp i vinden: +40% undanmanöver i 2 rundor och agerar direkt igen."
+    },
+    "aelin_piercing_dive": {
+      "name": "Genomborrande Dyk",
+      "desc": "Dyker mot den svagaste fienden och ignorerar 30% av rustningen."
+    },
+    "aelin_tempest_charge": {
+      "name": "Stormanfall",
+      "desc": "Rider stormen genom fiendens led: skadar alla fiender och sänker deras SPD med 20%."
+    },
+    "morwen_silver_bolt": {
+      "name": "Silverbult",
+      "desc": "Välsignad silverbult, +30% skada mot odöda och demoner."
+    },
+    "morwen_binding_seal": {
+      "name": "Bindande Sigill",
+      "desc": "Fäster ett sigill på målet: skada, -25% ATK och -20% SPD i 2 rundor."
+    },
+    "morwen_hunters_mark": {
+      "name": "Jägarens Märke",
+      "desc": "Skjuter den svagaste fienden och sänker DEF med 25%. Garanterad krit mot försvagade mål."
+    },
+    "morwen_purging_volley": {
+      "name": "Renande Salva",
+      "desc": "5 välsignade bultar mot slumpmässiga fiender (+50% mot odöda och demoner) med chans att sätta dem i brand."
+    }
+  },
+  "info": "Info",
+  "upgrade_tab": "Uppgradera",
+  "skins": "Skins",
+  "skins_none": "Inga skins ännu",
+  "skin_default": "Standard",
+  "skin_n": "Skin {{n}}",
+  "power_label": "Kraft",
+  "level_of": "Nivå {{level}}/{{max}}",
+  "stats_title": "Stats",
+  "owned_count": "Ägda {{n}}/{{max}}",
+  "vesna": {
+    "name": "Vesna Kaosviskare",
+    "title": "Kaosdyrkare",
+    "class": "Kaosprästinna",
+    "desc": "Har svurit sig till kaoset och offrar sitt eget blod för att förvränga slagfältet.",
+    "lore": [
+      "Vesna växte upp i Stjärnfallet, i byn som låg närmast platsen där stjärnan föll. Alla andra flydde. Hennes familj stannade, för de hade hört stjärnan tala i sina drömmar. Det som talade var inte en stjärna. Det var det som stjärnan hade blivit.",
+      "Kaoskulten som bildades runt kratern lärde henne att ordning är en lögn och att den enda sanningen är förändring. Hon lärde sig att offra sitt eget blod för att förvränga slagfältet, att så entropi bland fiendens led och att skratta när allt faller samman. Hon är inte ond. Hon är övertygad – vilket kan vara värre.",
+      "Varför hon slåss vid hjältarnas sida vet ingen, minst av allt hjältarna själva. Vesna säger att Den Fallne Stjärnan har blivit förutsägbar och att kaos kräver att man byter sida ibland. Arthen håller alltid ett öga på henne. Hon tycker det är gulligt."
+    ]
+  },
+  "nera": {
+    "name": "Nera Silkessteg",
+    "title": "Bladdansare",
+    "class": "Dansare-lönnmördare",
+    "desc": "Rör sig som en dansare på scen – tills knivarna kommer fram.",
+    "lore": [
+      "På Glödborgs scener är Nera Silkessteg känd som den bästa dansösen i hela Eldria – den som kan stå på tå en hel akt utan att blinka. Det ingen i publiken vet är att hon får betalt två gånger per föreställning: en gång av teatern, och en gång av den som vill att en viss åskådare aldrig lämnar salongen.",
+      "Hon tränades av en pensionerad lönnmördare som insåg att den bästa förklädnaden är att synas. Knivarna sitter i lårremmarna under kjolen. Silkesbandet i handen är vässat längs ena kanten. Ingen letar efter ett vapen hos den som applåderas.",
+      "Nera anslöt till hjältarna efter att ett kontrakt gick fel: målet var en drakkin-hövding, och när hon kom fram hade han redan bränt ner halva staden. Hon dansade ändå. Nu säger hon att hon bara vill se hur långt en föreställning kan gå innan ridån faller."
+    ]
+  },
+  "yuki": {
+    "name": "Yuki Frostblomma",
+    "title": "Frostprästinna",
+    "class": "Isprästinna",
+    "desc": "Kallar på vinterns stillhet för att skydda de sina och frysa fienden på plats.",
+    "lore": [
+      "Längst ut på Isvidderna, där Isdrottningens palats bara syns som ett blått sken i horisonten, ligger ett litet tempel av vit sten som ingen minns vem som byggde. Yuki Frostblomma föddes i byn nedanför och lämnades vid templets trappa en vinternatt när hon var sju. Systrarna som tog emot henne sa att hon inte grät. Hon lyssnade – på bjällrorna som ringde i vinden fast det inte fanns någon vind.",
+      "Frostsystrarna dyrkar inte Isdrottningen. De dyrkar stillheten som fanns på vidderna innan hon kom. Yuki lärde sig att kylan kan vara en gåva: den stoppar blödningar, dövar smärta och får den som rasar att stå stilla länge nog för att tänka. Hennes stav med de sju silverringarna är templets äldsta relik, och bjällrorna ringer bara när någon i närheten ljuger.",
+      "När Lyra Vågsång sökte upp templet för att fråga om den nya rösten i isen, var Yuki den enda som vågade svara. Hon följde med hjältarna för att hon hört samma röst i sina drömmar sedan hon var barn – och för att bjällrorna ringde när Isdrottningens sändebud lovade byn frid."
+    ]
+  },
+  "lumi": {
+    "name": "Lumi Solstråle",
+    "title": "Bard",
+    "class": "Vandrande Bard",
+    "desc": "Hennes sånger ger laget mod och får fienden att somna mitt i striden.",
+    "lore": [
+      "Lumi Solstråle föddes på ett värdshus vid vägen mellan Norsheim och Eldria, i ett rum ovanför skänkrummet där det alltid spelades musik. Hennes mor var värdshusvärd, hennes far en gästande lutspelare som stannade en vinter och sedan aldrig kom tillbaka. Han lämnade en luta. Hon lärde sig spela den innan hon lärde sig läsa.",
+      "Vid sexton gav hon sig av med lutan på ryggen och en kniv i bältet, för vägarna i Norsheim är inte snälla mot den som går ensam. Hon sjöng på marknader, i kaserner och vid lägereldar, och upptäckte något som Elementalisternas Akademi skulle kalla omöjligt: när hon sjöng stridssången från Hallvard slog soldaterna hårdare, och när hon nynnade vaggvisan från värdshuset somnade skuggvargen vid lägerkanten.",
+      "Hjältarna hörde henne första gången i Glödborg, där hon sjöng om Arthens ritt ut från Silverhöjd – en visa hon skrivit själv utan att någonsin ha träffat honom. Arthen tyckte texten var överdriven. Thora tyckte den var för kort. Lumi följde med för att skriva en bättre vers, och har inte slutat än."
+    ]
+  },
+  "saga": {
+    "name": "Saga Månskugga",
+    "title": "Tjuv",
+    "class": "Månljustjuv",
+    "desc": "Stjäl fiendens styrka mitt i striden och slår hårdast mot den som redan vacklar.",
+    "lore": [
+      "I Glödborgs nedre kvarter, där gränderna aldrig får solljus och taken ligger så tätt att man kan gå från ena änden av staden till den andra utan att röra marken, växte Saga Månskugga upp bland ficktjuvar och hälare. Hon var den minsta i gänget och den enda som aldrig åkte fast. Vakterna kallade henne Månskuggan för att de bara såg henne när månen stod högt – och då var det redan för sent.",
+      "Hennes mästare var en gammal inbrottstjuv som lärde henne den enda regel som betyder något: ta aldrig något som inte saknas. Saga bröt regeln en enda gång. Hon stal ett guldur från en köpman i Glödborg, och när hon öppnade boetten fann hon inte ett urverk utan en liten svart skärva som viskade. Köpmannen visade sig vara kaoskultist. Uret går fortfarande. Det visar inte tid.",
+      "Saga sökte upp hjältarna själv, vilket är ovanligt för henne. Hon säger att hon vill sälja tillbaka skärvan till Stjärnfallet, till högsta pris. Vesna Kaosviskare tittar på uret varje gång de slår läger. Saga låter henne titta. Hon har redan bytt ut kedjan tre gånger."
+    ]
+  },
+  "vilja": {
+    "name": "Vilja Ekenbrus",
+    "title": "Skogsdruid",
+    "class": "Druid",
+    "desc": "Låter skogen växa mitt på slagfältet – läker de sina och snärjer fienden i rötter.",
+    "lore": [
+      "Vilja Ekenbrus är halvalv, född i den djupaste delen av Norsheims skogar där de gamla ekarna står så tätt att skuggvargarna inte vågar gå in. Hennes mor var en av de sista skogsalverna, hennes far en skogshuggare från Hallvard som lade ner yxan samma dag han mötte henne. Vilja växte upp mellan två världar och valde den som hade rötter.",
+      "Druidcirkeln i Ekenbrus lärde henne att lyssna på det som växer: att en skog inte är träd utan ett enda väsen som andas långsamt, och att den som kan höra andetagen också kan be om hjälp. Hennes stav är en gren från den äldsta eken, fortfarande levande, och blomman i toppen slår ut när någon i närheten läks. Hon bär en skära i bältet, men den är för örter. Hon säger det varje gång någon frågar.",
+      "När Ilva Skogsvakt kom till cirkeln med en pil vars spets var förgiftad av något som inte kom från skogen, förstod Vilja att Stjärnfallets korruption hade nått rötterna. Hon lämnade Ekenbrus för första gången i sitt liv. Skogen, säger hon, bad henne gå."
+    ]
+  },
+  "freja": {
+    "name": "Freja Stormhjärta",
+    "title": "Sköldjungfru",
+    "class": "Stormriddare",
+    "desc": "Står som en mur i stormen och drar fiendens vrede till sig – och tillbaka på dem.",
+    "lore": [
+      "Stormhjärta-släkten har vaktat Norsheims norra pass i elva generationer, i en borg som byggdes så högt att blixten slår ner i dess torn oftare än i något annat i riket. Freja föddes under ett åskväder, och släktens krönika hävdar att hon skrek först när dundret tystnade. Hon lärde sig hålla sköld innan hon lärde sig hålla sked.",
+      "Ordens riddare i Silverhöjd tar inte emot kvinnor. Freja red dit ändå, sjutton år gammal, och utmanade portvakten på en duell om rätten att gå in. Hon förlorade. Hon kom tillbaka nästa dag. Och nästa. På fjortonde dagen tröttnade Arthen på att titta på och gav henne sin egen sköld att träna med. Hon lämnade aldrig tillbaka den. Han har inte bett om den.",
+      "Blixten som slår i hennes sköld är inte magi – det är släktens välsignelse, eller förbannelse, beroende på vem man frågar. Freja frågar ingen. Hon står där skuggorna är tjockast, låter dem slå, och låter stormen svara. De som slåss bakom henne säger att man vänjer sig vid dundret. Man vänjer sig aldrig vid ljuset."
+    ]
+  },
+  "nova": {
+    "name": "Nova Stjärnfall",
+    "title": "Alkemist",
+    "class": "Stjärnalkemist",
+    "desc": "Blandar stjärnstoft och syra i sina flaskor – förstärker laget och fräter ner fiendens rustning.",
+    "lore": [
+      "Nova föddes i Stjärnfallet, i en by som inte finns längre, tre dagar innan stjärnan föll. Hennes föräldrar flydde med henne i famnen och slog sig ner i Eldria, där de tog namnet Stjärnfall för att aldrig glömma. Nova växte upp i Elementalisternas Akademis skugga men fick aldrig plats där: hon hade ingen talang för magi. Hon hade något annat. Hon kunde se vad saker var gjorda av.",
+      "Akademins alkemister tog emot henne som lärling, och inom två år hade hon sprängt tre laboratorier och upptäckt att stjärnstoft från kratern i Stjärnfallet reagerar på levande blod. Hennes glasögon har linser slipade av samma glas som Isvidderna fyrkristaller – de låter henne se magins strömmar som färger. Bandoläret med de små flaskorna byter hon innehåll i varje morgon. Ingen annan får röra det.",
+      "Hon anslöt till hjältarna för att de var på väg till kratern och hon behövde prover. Så säger hon i alla fall. Grimvald Benstav påpekade en kväll att hennes föräldrar aldrig berättat vilken by de kom ifrån. Nova svarade inte. Nästa morgon var hennes anteckningsbok en sida tjockare."
+    ]
+  },
+  "hilda": {
+    "name": "Hilda Runhammare",
+    "title": "Runsmed",
+    "class": "Dvärgrunsmed",
+    "desc": "Hamrar runor i sten och stål – krossar fiendens rustning och står kvar när berget skakar.",
+    "lore": [
+      "Under Norsheims norra fjäll, där stenklanens gruvor slutar och de gamla dvärgsalarna börjar, har släkten Runhammare smidit i tvåhundra år. Hilda är den sista av dem som fortfarande kan läsa de gamla runorna – och den enda som vet att de inte skrevs för att pryda, utan för att hålla något nere.",
+      "Det var hon som smidde Thora Järnhands järnhand, natten efter att Stenknallarna vaknade. Thora bad henne göra den tyngre. Hilda gjorde den tyngre, och ristade in en runa på insidan av greppet som Thora fortfarande inte vet om. Den värmer när hon blöder. Hilda säger att det är dålig metall. Det är det inte.",
+      "När runorna i de djupaste salarna började glöda av sig själva, i samma blekvioletta ton som Stjärnfallets kratersten, släckte Hilda ässjan för första gången i sitt liv och gick upp i dagsljuset. Hon har inte vant sig vid himlen. Hon säger att den är för stor och att den saknar tak. Men hon har med sig sin städhammare, och varje kväll i lägret ristar hon en ny runa i någons sköld – utan att fråga."
+    ]
+  },
+  "tyra": {
+    "name": "Tyra Åsknäve",
+    "title": "Stormmunk",
+    "class": "Åskmunk",
+    "desc": "Slåss med bara händerna och blixten i knytnävarna – dansar undan slagen och drar fiendens vrede till sig.",
+    "lore": [
+      "Högt ovanför Norsheims norra pass, där molnen går lägre än klostrets tak, ligger Åskklostret – ett stenhus där munkarna tror att blixten inte är något man flyr från utan något man lär sig ta emot. Tyra lämnades vid porten som spädbarn en stormnatt. Munkarna säger att blixten slog ner i klocktornet i samma stund som hon slutade gråta.",
+      "Hon fick aldrig bära vapen. Klostrets regel är enkel: den som behöver ett svärd har redan förlorat avståndet. Tyra lärde sig i stället att stå barfota på klipphällen under åskväder, att andas långsamt när håret reste sig, och att låta blixten gå genom kroppen och ut genom handflatorna. Hennes lindade händer är fulla av små vita ärr som ser ut som frost. Hon kallar dem sina lärare.",
+      "När Freja Stormhjärta red förbi klostret på väg söderut stannade hon för att be om vatten. Tyra bad om en duell. Freja höll upp skölden; Tyra slog på den tills blixten i skölden och blixten i knytnäven möttes och båda flög baklänges. De skrattade i en halvtimme. Nästa morgon var Tyra borta från klostret, och abboten sägs ha suckat av lättnad."
+    ]
+  },
+  "solveig": {
+    "name": "Solveig Åskpil",
+    "title": "Stormbågskytt",
+    "class": "Blixtskytt",
+    "desc": "Fångar blixten på sina pilar – skott som hoppar mellan fiender och ett åskregn som bedövar hela fältet.",
+    "lore": [
+      "På Isviddernas kust, där vinterstormarna kommer in från havet med blixt och is i samma andetag, jagar folket stormmåsar – fåglar som bara flyger när det åskar. Solveig Åskpil var den första i sin by som träffade en i full storm. Pilen hon sköt kom tillbaka till marken glödande, och sedan dess har hon aldrig skjutit en vanlig pil igen.",
+      "Hennes båge är gjord av ask och valben, men strängen är silvertråd från Vågsång-släktens fyrtorn – en gåva från Lyra, som hon växte upp med. Lyra kallar på blixten. Solveig fångar den. Som barn brukade de stå på fyrens klippa i åskväder, en med händerna mot himlen och en med bågen spänd, och se vem av dem som kunde få blixten att slå ner närmast den andra. Deras mödrar förbjöd det. De slutade aldrig.",
+      "När Lyras fyrkristall slutade lysa mot Isdrottningens palats var det Solveig som sköt den första pilen mot isen – och såg den slockna mitt i luften. Hon följde Lyra söderut dagen efter. Hon säger att hon bara vill veta vad som kan släcka en blixt. Hon har bytt pilspetsar tre gånger sedan dess, och varje gång brinner de lite starkare."
+    ]
+  },
+  "linnea": {
+    "name": "Linnea Silverklinga",
+    "title": "Duellant",
+    "class": "Fäktmästare",
+    "desc": "Fäktas med värja och parerdolk – avväpnar fienden, returnerar varje slag och avslutar med en sista elegant stöt.",
+    "lore": [
+      "Silverklinga är ett av de äldsta adelshusen i Glödborg, och ett av de fattigaste. Det enda släkten har kvar av sin forna glans är en värja med silverfäste och en regel: en Silverklinga backar aldrig från en utmaning. Linnea tog regeln bokstavligt. Vid femton hade hon vunnit fyrtiotvå dueller, förlorat en, och krävt revansch dagen efter.",
+      "Hon tränades av stadens gamla fäktmästare, en enögd man som hävdade att en duell avgörs innan klingorna möts – i hur man står, i vad man tittar på, i vad man låter motståndaren tro. Linnea lärde sig att le mitt i en parad och att tacka för varje träff hon tog. Hon bär fortfarande hans parerdolk i vänster hand. Han dog i en duell han inte behövde ta. Hon har aldrig förlåtit honom för det.",
+      "När en Drakkinhövding brände ner halva stadsdelen där Silverklingas hus stod, utmanade Linnea honom formellt, med handske och vittnen. Han skrattade. Hon träffade honom tre gånger innan han slutade. Det var Nera Silkessteg som drog henne ur elden efteråt. Linnea har tackat henne en gång, stelt och med en bugning. Nera har inte slutat reta henne för det."
+    ]
+  },
+  "runa": {
+    "name": "Runa Spjutvakt",
+    "title": "Spjutsven",
+    "class": "Spjutväktare",
+    "desc": "Står fast med spjut och sköld – håller fiendens uppmärksamhet och ger laget en mur att stå bakom.",
+    "lore": [
+      "Vid Norsheims södra vadställe, där handelsvägen till Eldria korsar ån, har Spjutvakterna hållit bron i fyra hundra år. Det är ingen orden och ingen adel – bara bönder som turas om att stå vakt med ett spjut och en träsköld, en vinter i taget. Runa tog sin första vakt vid tretton. Hon har aldrig lämnat över den.",
+      "Ärret i ögonbrynet fick hon den natten skuggvargarna kom ner från skogen. Fyra spjutvakter stod på bron. Tre av dem sprang. Runa stod kvar till gryningen med spjutet nedstött i plankorna, och när solen kom upp låg sju vargar i ån och ingen hade tagit sig över. Hon säger att hon inte var modig, bara för trött för att flytta på sig.",
+      "När Arthen red söderut stannade han vid bron och frågade vem som höll den. Bönderna pekade på Runa. Han frågade om hon ville följa med. Hon svarade att någon måste hålla bron. Han svarade att Den Fallne Stjärnan inte bryr sig om broar. Nästa morgon gav hon sin gröna vapenrock till en tolvåring och gick efter honom. Hon har inte sagt ett ord om det sedan, men varje kväll vänder hon sig mot norr innan hon somnar."
+    ]
+  },
+  "sable": {
+    "name": "Sable Vildmark",
+    "title": "Bestmästare",
+    "class": "Vildmarksjägare",
+    "desc": "Jagar med vildmarkens djur vid sin sida – en flock som river fienden och ett rop som gör hela laget snabbare.",
+    "lore": [
+      "Ingen vet säkert var Sable kommer ifrån. Pälsjägarna i Norsheims nordskogar hittade henne när hon var kanske sex år gammal, levande i en vargkull i en grotta som ingen människa hade gått in i på hundra år. Hon kunde inte prata. Hon kunde däremot få flockens alfahanne att lägga sig på rygg med en enda blick.",
+      "Jägarna lärde henne språk, spjut och att flå. Hon lärde dem att lyssna. Ingen i byn fick någonsin en björn att följa sig som en hund, men Sable gjorde det två gånger innan hon fyllde femton. Halsbandet av vargtänder bär hon inte som trofé – varje tand kommer från en flockmedlem som dog av ålder, och hon kan räkna upp dem alla vid namn.",
+      "Det var djuren som märkte det först. Vargarna i nordskogen började vandra söderut, rådjuren slutade beta i gläntorna, och korparna satt tysta i träden. När skuggvargarna dök upp – svarta, tysta, med ögon som Stjärnfallets kratersten – förstod Sable att något förgiftade själva vildmarken. Hon gick för att jaga det. Flocken följer henne fortfarande, alltid precis utom synhåll."
+    ]
+  },
+  "kaida": {
+    "name": "Kaida Solned",
+    "title": "Trollklinga",
+    "class": "Solklinga",
+    "desc": "Förenar svärd och magi – en högalv vars runklinga lyser av solnedgångens ljus och straffar mörkrets varelser.",
+    "lore": [
+      "Solned är den högalviska huvudstadens äldsta ätt, och dess svärd har burits i fyra tusen år. Varje Solned föds med ett runtecken i handflatan, och varje Solned lär sig en enda sak från barnsben: att ett svärd utan magi är bara metall, och att magi utan svärd är bara ord. Kaida var den första på tre generationer som behärskade båda innan hon fyllt hundra.",
+      "Hennes klinga heter Eftersken, smidd i solnedgångens sista minut på högalvernas heliga tinne. Runorna längs eggen glöder guld när den dras, och djupare röda ju längre striden varar. Det sägs att Eftersken aldrig har slocknat helt, inte ens i Skuggmarkernas mörker. Kaida påstår att det inte är svärdet som lyser, utan att mörkret drar sig undan.",
+      "Högalverna har alltid hållit sig borta från människornas krig. När Den Fallne Stjärnan störtade förbjöd rådet allt deltagande. Kaida lydde i tre år. Sedan såg hon från tinnen hur solen gick ner över Stjärnfallet och inte kom tillbaka på samma plats nästa morgon. Hon red ut samma dag, utan rådets välsignelse. Hon säger att hennes folk har sett nog av solnedgångar."
+    ]
+  },
+  "petra": {
+    "name": "Petra Jordväkt",
+    "title": "Geomant",
+    "class": "Jordmagiker",
+    "desc": "Talar med berget – får marken att skälva under fienden och ger laget hud av sten.",
+    "lore": [
+      "Petra Jordväkt växte upp i gruvsamhället under Norsheims södra fjäll, dotter till en geolog som kartlade gångarna och en mor som sjöng för dem. Gruvarbetarna sa att Petra kunde höra var malmen låg. Hon sa att det var stenen som pratade och att de vuxna bara inte lyssnade.",
+      "Elementalisternas Akademi i Eldria tog emot henne som elev men visste aldrig riktigt vad de skulle göra med henne. Hon tråkades ut av eld och is och tillbringade lektionerna på golvet med handflatorna mot stengolvet. När hon en eftermiddag fick hela hörsalen att höja sig en meter för att se tavlan bättre, flyttades hon till en egen sal i källaren. Hon trivdes bättre där.",
+      "Hon samlar stenprover i bältet – en från varje plats hon varit på – och känner dem alla vid namn. När Stenknallarna vaknade i Thora Järnhands gruvor och Äldre Stenjätten reste sig ur ruinerna, förstod Petra att något hade fått berget självt att vakna i ilska. Hon vill veta vad. Hon säger att berget inte kan ljuga, men det kan vara rädd."
+    ]
+  },
+  "nyxara": {
+    "name": "Nyxara Vell",
+    "title": "Blodhäxa",
+    "class": "Blodmagiker",
+    "desc": "Offrar sitt eget blod för kraft – öppnar sår på alla fiender och stjäl livet ur dem.",
+    "lore": [
+      "I Viskande Salarna, mörkalvernas dolda stad i Skuggmarkerna, är blodmagi förbjuden sedan tusen år. Det har aldrig hindrat någon från att studera den – bara från att erkänna det. Nyxara Vell erkände det. Hon var nitton när hon stod inför rådet med bandagerade armar och förklarade, lugnt och utförligt, varför lagen var fel.",
+      "Hon förvisades samma kväll. Hon tog med sig sina instrument: en bronsskål, en silverlansett och en bok inbunden i rött läder som hon inte låter någon läsa. Hon har levt i myrarna sedan dess, hos häxor och eremiter som lärt henne mer än rådet någonsin kunnat. Hennes underarmar är täckta av ärr i noggranna rader. Hon kan berätta vad varje ärr kostade och vad det köpte.",
+      "Nyxara slåss inte med hjältarna av godhet. Hon slåss för att Blodmästaren och Vampyrlorden använder hennes konst utan att förstå den, och hon tänker bevisa att hon är bättre. Sylwen Nattblad känner igen henne från Salarna och litar inte på henne. Grimvald Benstav litar på henne ännu mindre men lånar ibland hennes anteckningar. Nyxara låtsas inte märka det."
+    ]
+  },
+  "berit": {
+    "name": "Berit Sköldrot",
+    "title": "Vaktbjörn",
+    "class": "Tornsköld",
+    "desc": "En levande mur med tornsköld och yxa – vrålar för att dra till sig fienden och skyddar hela laget.",
+    "lore": [
+      "I Norsheims höglänta björnmarker säger man att en Sköldrot inte föds, utan rotas. Släkten har i generationer hållit vakt över dalens passage, och varje barn får sin första sköld innan det kan gå. Berit fick sin när hon var två. Den var större än hon. Hon vägrade släppa den.",
+      "Hon växte upp till den största kvinnan i dalen och den mest envisa. När en björnhona med ungar slog läger mitt i passagen en vår, satt Berit framför idet i tre dagar utan att röra sig – inte för att jaga bort den, utan för att hindra jägarna från att döda den. Björnen gick till slut därifrån av sig själv. Berit fick sitt smeknamn, och pauldronerna med björnmotiv smiddes av byns smed samma höst.",
+      "Hon talar sällan och skrattar högt. När Thora Järnhand kom genom dalen och utmanade henne på armbrytning stod de i en timme utan att någon vann. Sedan delade de en tunna öl och har varit oskiljaktiga sedan dess. Berit säger att hon följer hjältarna för att någon måste stå framför dem. Thora säger att hon följer dem för att Berit gör det."
+    ]
+  },
+  "aelin": {
+    "name": "Aelin Vindlans",
+    "title": "Vindlansiär",
+    "class": "Lansiär",
+    "desc": "Rider vinden med sin vingade lans – dyker ner på den svagaste fienden och hinner anfalla igen innan någon hunnit reagera.",
+    "lore": [
+      "Högt uppe på Eldrias vindklippor ligger Örnhemmet, där lansiärerna tränar att hoppa från klipporna med vingade lansar och låta vinden bära dem. De flesta som försöker landar i nätet. Aelin landade i nätet fyrtio gånger. Den fyrtioförsta gången landade hon inte alls – hon flög ett helt varv runt klippan innan hon satte ner fötterna på samma sten hon hoppat ifrån.",
+      "Lansen hon bär är gjord av askträ och falkfjädrar, och vimplarna längs skaftet fångar vinden även när luften står still. Hennes lärare sa att vinden aldrig går att tvinga, bara övertala. Aelin tolkade det som att man måste vara snabbare än den. Hon har brutit benet tre gånger och armen två. Hon säger att det var värt det varje gång.",
+      "När stormarna över Eldria började blåsa åt fel håll – inåt mot Stjärnfallet, som om något där drog luften till sig – var Aelin den enda i Örnhemmet som vågade flyga in i dem. Hon kom tillbaka med is i håret och ett namn på läpparna hon inte kunde förklara. Hon har sökt efter vindens källa sedan dess, och hon tänker vara först där."
+    ]
+  },
+  "morwen": {
+    "name": "Morwen Askjägare",
+    "title": "Häxjägare",
+    "class": "Inkvisitor",
+    "desc": "Jagar häxor och odöda med välsignade silverbultar – binder fienden med sigill och renar slagfältet med eld.",
+    "lore": [
+      "Askjägarna är ett gammalt sällskap inom Ljusets Orden i Silverhöjd: kvinnor och män som svurit att jaga det som skuggorna väcker. De bär inga mantlar och ingen fana, bara en grå rock, ett armborst med silverinläggningar och en bok med namn. Morwen var den yngsta som någonsin fick sin bok. Hon har strukit fler namn ur den än någon annan levande askjägare.",
+      "Hon började jaga när hennes syster dog i Skuggmarkerna, offrad av en kult som lovade henne evigt liv. Morwen spårade kulten i två år, genom myrar och kryptor, och när hon till slut hittade dem var hon inte längre den hon varit. Hon ler sällan. Hon sover med armborstet spänt. Hon räknar silverbultarna varje kväll, två gånger.",
+      "Hon och Nyxara Vell har mötts förut, på var sin sida om ett bål. Ingen av dem talar om det. Morwen anslöt till hjältarna för att Lichen och Blodmästaren står överst i hennes bok, men hon har skrivit två namn till på den sista sidan och vägrar säga vilka. Arthen tror att det ena är Vesna. Vesna tror att det andra är Arthen."
+    ]
+  },
+  "lore_title": "Lore",
+  "lore_heading": "Berättelse"
+}

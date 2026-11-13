@@ -1,0 +1,14 @@
+{
+  "name": "Heroes of Eldria",
+  "short_name": "Eldria",
+  "description": "Turn-based dark fantasy RPG",
+  "start_url": "./",
+  "display": "fullscreen",
+  "orientation": "landscape",
+  "background_color": "#0f0c1a",
+  "theme_color": "#0f0c1a",
+  "lang": "sv",
+  "icons": [
+    { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}

@@ -1,0 +1,19 @@
+node_modules
+dist
+.vs
+*.local
+.heroes.tmp.cjs
+recordings
+*.tsbuildinfo
+.claude/settings.local.json
+
+# Local-only source material (raw art, prompts, lore) – not needed to build/play the game
+art/
+stage_prompts/
+*_prompt*.txt
+Heroes_Art_Red_Theme.txt
+lore.txt
+*.mp3
+/Elarion.png
+/image.jpg
+/solveig_alt_1.png

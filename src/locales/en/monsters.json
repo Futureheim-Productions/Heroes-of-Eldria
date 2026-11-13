@@ -1,0 +1,252 @@
+{
+  "shadow_wolf": {
+    "name": "Shadow Wolf",
+    "special": "Leaps past the front line to attack the weakest hero."
+  },
+  "skeleton_warrior": {
+    "name": "Skeleton Warrior",
+    "special": "Revives once with 30% HP unless burned."
+  },
+  "poison_spider": {
+    "name": "Poison Spider",
+    "special": "Applies poison + can trap a hero in a web."
+  },
+  "stone_knoll": { "name": "Stone Knoll", "special": "High Defense. Splits when critically hit." },
+  "stone_knoll_small": { "name": "Small Stone Knoll", "special": "A splintered piece of rock." },
+  "blood_bat": { "name": "Blood Bat", "special": "Lifesteal on attacks. High evasion." },
+  "cherry_spirit": { "name": "Corrupt Cherry Spirit", "special": "Can charm a hero for 1 turn." },
+  "mushroom_farmer": {
+    "name": "Mushroom Farmer",
+    "special": "Spawns small mushroom minions every turn."
+  },
+  "mushroom_minion": { "name": "Mushroom Minion", "special": "A tiny spore creature." },
+  "ice_imp": { "name": "Ice Imp", "special": "Lowers Speed of hit targets." },
+  "iron_golem": {
+    "name": "Iron Golem",
+    "special": "Extremely high Defense. Magic deals more damage."
+  },
+  "necro_apprentice": {
+    "name": "Necromancer's Apprentice",
+    "special": "Summons Skeleton Warriors mid-battle."
+  },
+  "fire_salamander": {
+    "name": "Fire Salamander",
+    "special": "Fire breath (AoE) + immune to fire."
+  },
+  "shadow_assassin": {
+    "name": "Shadow Assassin",
+    "special": "High crit chance + can vanish for 1 turn."
+  },
+  "banshee": {
+    "name": "Banshee",
+    "special": "Terrifying wail that can make heroes skip their turn."
+  },
+  "crystal_spider": {
+    "name": "Crystal Spider",
+    "special": "Her web lowers both Speed and Defense."
+  },
+  "drakkin_warrior": {
+    "name": "Drakkin Warrior",
+    "special": "Enters a raging form that greatly boosts ATK."
+  },
+  "black_knight": {
+    "name": "Black Knight",
+    "special": "High Defense + reflects part of the damage."
+  },
+  "storm_elemental": {
+    "name": "Storm Elemental",
+    "special": "Chain lightning + partial immunity to physical attacks."
+  },
+  "blood_master": {
+    "name": "Blood Master",
+    "special": "Sacrifices own HP to massively buff an ally."
+  },
+  "elder_giant": {
+    "name": "Elder Stone Giant",
+    "special": "Earthquake (AoE + stun chance) + huge HP pool."
+  },
+  "vampire_lord": {
+    "name": "Vampire Lord",
+    "special": "Strong lifesteal + bat form (high evasion)."
+  },
+  "black_drakeling": {
+    "name": "Black Drakeling",
+    "special": "Fire breath + a weaker Dragon Form."
+  },
+  "lich": { "name": "Lich", "special": "Raises fallen enemies + powerful curses." },
+  "shadow_demon": {
+    "name": "Shadow Demon",
+    "special": "Grows stronger the more debuffs your team has."
+  },
+  "corrupt_treelord": {
+    "name": "Corrupt Treelord",
+    "special": "Summons corrupt vegetation + strong regeneration."
+  },
+  "ice_queen": {
+    "name": "Ice Queen",
+    "special": "Can freeze the whole team + creates ice barriers."
+  },
+  "war_golem": { "name": "War Golem", "special": "Switches between offensive and defensive form." },
+  "soul_eater": {
+    "name": "Soul Eater",
+    "special": "Steals life force and grows stronger from it."
+  },
+  "mirror_warden": { "name": "Mirror Warden", "special": "Copies a hero's strongest spell." },
+  "time_twister": {
+    "name": "Time Twister",
+    "special": "Can make a hero skip a turn or act twice itself."
+  },
+  "fallen_star": {
+    "name": "The Fallen Star",
+    "special": "Combines holy and shadow magic. Heals itself and casts devastating AoE."
+  },
+  "frost_warg": {
+    "name": "Frost Warg",
+    "special": "A slowing frost bite – its howl empowers the whole pack."
+  },
+  "bog_crawler": {
+    "name": "Bog Crawler",
+    "special": "A venomous sting and marsh gas that poisons the whole team."
+  },
+  "ash_imp": {
+    "name": "Ash Imp",
+    "special": "Sparks that ignite and ash clouds that lower ATK. Immune to fire."
+  },
+  "grave_hound": {
+    "name": "Grave Hound",
+    "special": "Hunts the weakest hero and rises once after death."
+  },
+  "rune_wisp": {
+    "name": "Rune Wisp",
+    "special": "Hard to hit and heals its wounded allies."
+  },
+  "peat_brute": {
+    "name": "Peat Brute",
+    "special": "A tough peat body that regenerates and slows with its blows."
+  },
+  "snow_harpy": {
+    "name": "Snow Harpy",
+    "special": "Fast – dives at several targets and lowers their SPD."
+  },
+  "rust_tick": {
+    "name": "Rust Tick",
+    "special": "Corrodes armor (lowers DEF) and drains life."
+  },
+  "choir_shade": {
+    "name": "Choir Shade",
+    "special": "A dirge that can stun the whole team."
+  },
+  "ember_boar": {
+    "name": "Ember Boar",
+    "special": "A blazing charge that burns and can stun."
+  },
+  "glass_archer": {
+    "name": "Glass Archer",
+    "special": "Prism volleys at random targets with high crit chance."
+  },
+  "plague_monk": {
+    "name": "Plague Monk",
+    "special": "Plague mist that poisons and weakens the whole team."
+  },
+  "dune_serpent": {
+    "name": "Dune Serpent",
+    "special": "A venomous bite and a sandstorm that slows everyone."
+  },
+  "hex_doll": {
+    "name": "Hex Doll",
+    "special": "Curses the team (ATK/SPD down) and stitches itself back together once."
+  },
+  "coral_knight": {
+    "name": "Coral Knight",
+    "special": "Taunts behind a coral shield and reflects damage."
+  },
+  "thunder_ram": {
+    "name": "Thunder Ram",
+    "special": "A thunder charge with a high chance to stun."
+  },
+  "bone_chanter": {
+    "name": "Bone Chanter",
+    "special": "Raises skeletons and boosts its allies' ATK."
+  },
+  "cinder_monk": {
+    "name": "Cinder Monk",
+    "special": "Double strikes, a burning fist and a healing meditation."
+  },
+  "mist_stalker": {
+    "name": "Mist Stalker",
+    "special": "Hard to hit – pounces on the weakest hero."
+  },
+  "clockwork_squire": {
+    "name": "Clockwork Squire",
+    "special": "Ironskin against physical damage; winds itself up for more ATK and SPD."
+  },
+  "mire_hag": {
+    "name": "Mire Hag",
+    "special": "Curses, a healing brew and a flood that grows with every debuff."
+  },
+  "forge_tyrant": {
+    "name": "Forge Tyrant",
+    "special": "A furnace blast on everyone and an anvil crush that can stun. Immune to fire."
+  },
+  "pale_stag": {
+    "name": "Pale Stag",
+    "special": "Heals and cleanses its allies, tramples the whole team."
+  },
+  "drowned_admiral": {
+    "name": "Drowned Admiral",
+    "special": "Summons his dead crew, rallies his allies and fires broadsides."
+  },
+  "magma_behemoth": {
+    "name": "Magma Behemoth",
+    "special": "Huge HP, lava vents that burn and an eruption that can stun."
+  },
+  "frost_colossus": {
+    "name": "Frost Colossus",
+    "special": "A glacier shield and an avalanche that can freeze the whole team."
+  },
+  "silk_matron": {
+    "name": "Silk Matron",
+    "special": "Snares the team in silk and breeds spiders."
+  },
+  "oathbreaker": {
+    "name": "Oathbreaker",
+    "special": "Breaks the team (ATK/DEF down) and judges with a guaranteed crit on the debuffed."
+  },
+  "eclipse_wyrm": {
+    "name": "Eclipse Wyrm",
+    "special": "Alternates sun and shadow – burns, DEF down and a total eclipse."
+  },
+  "nameless_bell": {
+    "name": "The Nameless Bell",
+    "special": "Silent peals that stun and erase the weakest hero."
+  },
+  "plague_moth_queen": {
+    "name": "The Plague Moth Queen",
+    "special": "Spore storms that poison everyone, hypnotic wings that charm and a plague bloom that grows with every debuff."
+  },
+  "slag_king": {
+    "name": "The Slag King",
+    "special": "Molten armor that reflects damage, a crucible that burns the whole team. Immune to fire."
+  },
+  "storm_jarl": {
+    "name": "The Storm Jarl",
+    "special": "Chain lightning that stuns, a frost crown that makes him immune to CC and a ragnarok bolt."
+  },
+  "kraken_matriarch": {
+    "name": "The Kraken Matriarch",
+    "special": "Ink clouds that lower ATK, a crushing grip that stuns and a maelstrom that slows everyone."
+  },
+  "hollow_saint": {
+    "name": "The Hollow Saint",
+    "special": "Heals and becomes immune to debuffs, erases armor and blinds with a false dawn."
+  },
+  "type": {
+    "undead": "Undead",
+    "beast": "Beast",
+    "elemental": "Elemental",
+    "construct": "Construct",
+    "humanoid": "Humanoid",
+    "demon": "Demon",
+    "unique": "Unique"
+  }
+}
