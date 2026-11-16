@@ -10,6 +10,7 @@ import type { ActorSide, ActorState, ActorView } from '../types';
 import type { CombatAnimator } from '../timeline/CombatAnimator';
 import { StillActor } from '../actors/StillActor';
 import { formationSlots, slotZ, type Slot } from './slots';
+import { localRect, toLocal } from '@/components/layout/fakeLandscape';
 import '../combat.css';
 
 export interface SlotOffset {
@@ -90,7 +91,7 @@ export function CombatStage({
   useLayoutEffect(() => {
     const el = outerRef.current;
     if (!el) return;
-    const measure = () => setStageH(el.getBoundingClientRect().height);
+    const measure = () => setStageH(localRect(el).height);
     measure();
     const ro = new ResizeObserver(measure);
     ro.observe(el);
@@ -123,15 +124,17 @@ export function CombatStage({
         if (!canDrag) return;
         e.stopPropagation();
         (e.currentTarget as HTMLElement).setPointerCapture(e.pointerId);
-        setDrag({ key, x: e.clientX, y: e.clientY, from: saved, now: saved });
+        const p = toLocal(e.clientX, e.clientY);
+        setDrag({ key, x: p.x, y: p.y, from: saved, now: saved });
       };
       const onMove = (e: ReactPointerEvent) => {
         if (!drag || drag.key !== key) return;
+        const p = toLocal(e.clientX, e.clientY);
         setDrag({
           ...drag,
           now: {
-            dx: Math.round(drag.from.dx + e.clientX - drag.x),
-            dy: Math.round(drag.from.dy + e.clientY - drag.y),
+            dx: Math.round(drag.from.dx + p.x - drag.x),
+            dy: Math.round(drag.from.dy + p.y - drag.y),
           },
         });
       };

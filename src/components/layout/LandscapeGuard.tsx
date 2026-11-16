@@ -1,7 +1,11 @@
 import { useEffect, useState, type ReactNode } from 'react';
 import { useTranslation } from 'react-i18next';
+import { fakeLandscape } from './fakeLandscape';
 
-const isLandscapeNow = () => window.innerWidth >= window.innerHeight || window.innerWidth > 900;
+// phones held upright are turned sideways by fakeLandscape.ts; the overlay is left for a narrow, tall
+// window with a mouse (a desktop browser), which can't be faked sensibly
+const isLandscapeNow = () =>
+  fakeLandscape.on || window.innerWidth >= window.innerHeight || window.innerWidth > 900;
 
 export function LandscapeGuard({ children }: { children: ReactNode }) {
   const [isLandscape, setIsLandscape] = useState(isLandscapeNow);

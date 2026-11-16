@@ -52,6 +52,28 @@ body {
   font-size: 14px;
 }
 
+/* ── Fake landscape ──
+   A phone held upright (or held there by the iPhone rotation lock) gets the whole page turned 90°
+   clockwise – see components/layout/fakeLandscape.ts. <body> is laid out at the swapped size, so
+   everything inside (portalled modals too) is plain landscape; position: fixed children are placed
+   against the transformed body, so they turn with it. */
+html.fake-landscape body {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: var(--vh);
+  height: var(--vw);
+  transform-origin: 0 0;
+  transform: translateX(var(--vw)) rotate(90deg);
+}
+/* turned clockwise, each screen edge (and its safe-area inset) moves one side round */
+html.fake-landscape {
+  --safe-top: env(safe-area-inset-right, 0px);
+  --safe-right: env(safe-area-inset-bottom, 0px);
+  --safe-bottom: env(safe-area-inset-left, 0px);
+  --safe-left: env(safe-area-inset-top, 0px);
+}
+
 h1,
 h2,
 h3 {
@@ -266,6 +288,13 @@ input {
   body {
     font-size: 13px;
   }
+}
+/* the same for a faked landscape, where the media query sees the upright viewport */
+html.fake-short {
+  --header-h: 44px;
+}
+html.fake-short body {
+  font-size: 13px;
 }
 
 /* ── Main menu / hero panel (reference layout) ── */

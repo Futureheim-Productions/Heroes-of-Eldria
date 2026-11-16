@@ -19,6 +19,7 @@ import { NodePool } from '../fx/nodePool';
 import { flightTween, sheetTween, type Point } from '../fx/stageSpellFx';
 import { groundPulseTween, projectileTween } from '../fx/projectile';
 import { spawnFloater } from '../fx/damageFloater';
+import { localRect } from '@/components/layout/fakeLandscape';
 
 export interface HitSpec {
   targetId: string;
@@ -534,8 +535,9 @@ export class CombatAnimator {
 
   /** Point inside the actor box in stage space; `up` = fraction from the feet (0.6 = chest). */
   private point(el: HTMLElement, up: number): Point {
-    const s = this.stage!.getBoundingClientRect();
-    const r = el.getBoundingClientRect();
+    // page coordinates, so FX still land on the actor when the page is turned (fakeLandscape.ts)
+    const s = localRect(this.stage!);
+    const r = localRect(el);
     const k = (gsap.getProperty(this.stage!, 'scale') as number) || 1;
     return { x: (r.left + r.width / 2 - s.left) / k, y: (r.bottom - r.height * up - s.top) / k };
   }
