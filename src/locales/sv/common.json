@@ -26,6 +26,7 @@
   "player_level_up": "Spelarnivå {{level}}!",
   "rotate_title": "Rotera enheten",
   "rotate_body": "Heroes of Eldria spelas i landscape-läge",
+  "rotate_lock_hint": "Vrids inte skärmen? Stäng av rotationslåset i Kontrollcenter.",
   "error_title": "Något gick fel",
   "error_body": "Spelet stötte på ett fel. Ladda om sidan för att fortsätta.",
   "reload": "Ladda om",

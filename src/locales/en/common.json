@@ -26,6 +26,7 @@
   "player_level_up": "Player level {{level}}!",
   "rotate_title": "Rotate your device",
   "rotate_body": "Heroes of Eldria is played in landscape mode",
+  "rotate_lock_hint": "Screen not turning? Switch off the rotation lock in Control Center.",
   "error_title": "Something went wrong",
   "error_body": "The game hit an error. Reload the page to continue.",
   "reload": "Reload",
